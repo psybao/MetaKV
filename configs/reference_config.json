@@ -1,0 +1,35 @@
+{
+  "metadata_bits": 32,
+  "reference_representations": [
+    {
+      "id": "REP_0008",
+      "coarse_bits": 14,
+      "fine_bits": 18,
+      "zmin": -5,
+      "zmax": -0.5
+    },
+    {
+      "id": "REP_0025",
+      "coarse_bits": 19,
+      "fine_bits": 13,
+      "zmin": -5.75,
+      "zmax": -3
+    },
+    {
+      "id": "REP_0026",
+      "coarse_bits": 22,
+      "fine_bits": 10,
+      "zmin": -5.75,
+      "zmax": -3
+    },
+    {
+      "id": "REP_0027",
+      "coarse_bits": 26,
+      "fine_bits": 6,
+      "zmin": -5.75,
+      "zmax": -3
+    }
+  ],
+  "binary32z": "unsigned uniform 32-bit quantization over calibrated log2 interval",
+  "fault_model": "logical single-bit flips; not hardware BER"
+}

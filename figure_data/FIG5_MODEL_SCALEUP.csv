@@ -1,0 +1,8 @@
+﻿metric_id,series,x,y,unit,source,notes
+MODEL-Llama-3.1-8B-SCALES,HA-FBMS,Llama-3.1-8B,276480,scales,PAPER_MASTER_NUMBERS_P10C.csv::MODEL-Llama-3.1-8B-SCALES::E-P6B2,Model-calibrated instance; not exact N3 representation
+MODEL-Qwen3-14B-SCALES,HA-FBMS,Qwen3-14B,317440,scales,PAPER_MASTER_NUMBERS_P10C.csv::MODEL-Qwen3-14B-SCALES::E-P6B2,Model-calibrated instance; not exact N3 representation
+MODEL-Qwen3-32B-SCALES,HA-FBMS,Qwen3-32B,507904,scales,PAPER_MASTER_NUMBERS_P10C.csv::MODEL-Qwen3-32B-SCALES::E-P7,Model-calibrated instance; not exact N3 representation
+MODEL-Llama-3.1-8B-BMAX,Binary32-Z,Llama-3.1-8B,256.0000003305187,ratio,PAPER_MASTER_NUMBERS_P10C.csv::MODEL-Llama-3.1-8B-BMAX::E-P6B2,Logical fault screen; not hardware BER
+MODEL-Qwen3-14B-BMAX,Binary32-Z,Qwen3-14B,256.0000003305185,ratio,PAPER_MASTER_NUMBERS_P10C.csv::MODEL-Qwen3-14B-BMAX::E-P6B2,Logical fault screen; not hardware BER
+MODEL-Qwen3-32B-BMAX,Binary32-Z,Qwen3-32B,512.0000007436676,ratio,PAPER_MASTER_NUMBERS_P10C.csv::MODEL-Qwen3-32B-BMAX::E-P7,Logical fault screen; not hardware BER
+Q32-HA-MAX,HA-FBMS,Qwen3-32B,1.8660659830736155,ratio,PAPER_MASTER_NUMBERS_P10C.csv::Q32-HA-MAX::E-P7,Selected logical fault targets
