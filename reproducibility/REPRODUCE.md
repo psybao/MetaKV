@@ -1,21 +1,21 @@
 # Reproducing MetaKV
 
-## Level 0 — CPU-only sanity checks
+## CPU-only checks
 
-Run `python reproducibility/quick_validate.py`. This checks HA-FBMS and corrected Binary32-Z encode/decode behavior, FP32 conversion, logical-bit mapping round trips, representative amplification, master-table hashes, and figure-data integrity. No model weights or GPU are required.
+From the repository root, run `python reproducibility/quick_validate.py` and `python reproducibility/verify_public_results.py`.
 
-## Level 1 — Processed-data reproduction
+## GPU deployment microbenchmarks
 
-Use `data/PAPER_MASTER_NUMBERS_P10C.csv`, `figure_data/`, and `tables/` to regenerate tables and figures. These are processed evidence, not raw third-party corpora. Paths must be passed relative to the repository root.
+Selected scripts are under `code/experiments/`. Supply model/config inputs and output directories through documented CLI arguments or `METAKV_*` environment variables. Published timings are kernel microbenchmarks and depend on GPU, driver, runtime, and compiler.
 
-## Level 2 — GPU microbenchmarks
+## Model-dependent experiments
 
-Install a matching PyTorch/Triton backend and run the selected scripts in `code/experiments/`. Supply inputs and output locations via their documented positional arguments or `METAKV_*` environment variables. Results depend on GPU, driver, runtime, and kernel compilation.
+Llama-3.1-8B, Qwen3-14B, and Qwen3-32B weights are not redistributed. Full-cache evidence is one-step next-token replay, not full autoregressive generation or a production throughput test.
 
-## Level 3 — Real-model experiments
+## HBM-derived characterization analysis
 
-Obtain Llama-3.1-8B, Qwen3-14B, and Qwen3-32B from their official providers. Run scale extraction, clean full-cache one-step replay, and localized logical metadata-fault replay using the frozen configurations. Level 3 requires substantial GPU memory and compute. It cannot be reproduced on an ordinary CPU alone.
+MetaKV did not rerun the underlying HBM2 hardware characterization. The third-party DSN 2024 corpus is not redistributed. Only permitted derived metadata is public.
 
-## Scope
+## Reproducibility level
 
-The replay evidence is controlled one-step behavior, not a complete long-sequence generation benchmark. Logical fault injection is conditional-response analysis, not a deployed hardware fault rate.
+`REPRODUCIBLE_WITH_PUBLIC_ARTIFACTS=PARTIAL`. CPU codec, mapping, processed-table, hash, and public-result checks are reproducible. GPU/model-dependent workflows require external hardware, model weights, and the separately licensed HBM2 source corpus.

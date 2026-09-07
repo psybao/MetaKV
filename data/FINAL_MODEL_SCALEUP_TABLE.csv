@@ -1,4 +1,0 @@
-model,layers,scale_count,calibrated_interval,interval_width,clean_clip,HA_max_A,HA_GE2,clean_full_cache_top1_changes,clean_HA_vs_raw_KL,fault_semantic_target_count,fault_HA_top1_changes,fault_HA_max_KL,Binary32_max_A,Binary32_top1_changes,Binary32_max_KL,notes
-Llama-3.1-8B,32,276480,"[-13,3]",16,0,<2 (screen evidence),0,0,0,96,see retained P6B1 HA branch,see retained P6B1 HA branch,256.0000003305187,0,0.020511623471975327,P6B2 corrected Binary32-Z; full-cache one-step replay
-Qwen3-14B,40,317440,"[-11,5]",16,0,<2 (screen evidence),0,0,0,96,see retained P6B1 HA branch,see retained P6B1 HA branch,256.0000003305185,2,11.833429336547852,P6B2 corrected Binary32-Z; 2 Binary32 top1 changes
-Qwen3-32B,64,507904,"[-13,5]",18,0,1.8660659830736155,0,0,0,24,0,0.0015947017818689346,512.0000007436676,0,0.07932388037443161,P7A-R1/P7B-R2/P7C/P7D1 authoritative; clean HA vs raw observed zero

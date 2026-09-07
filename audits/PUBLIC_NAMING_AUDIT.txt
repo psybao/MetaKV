@@ -1,0 +1,4 @@
+Canonical public platform directories and representation IDs use lowercase snake_case. Execution and representation-source fields remain separate. MI300X/MI308X execution claims removed; AMD is gfx942-class. Linux execution is RTX5080_LINUX_H800_LIKE on NVIDIA GeForce RTX 5080. Binary32-Z definition corrected. H800 R6 segregated under diagnostic.
+NAMING_ERRORS_FOUND=8
+NAMING_ERRORS_FIXED=8
+PUBLIC_NAMING_AUDIT_PASS=True

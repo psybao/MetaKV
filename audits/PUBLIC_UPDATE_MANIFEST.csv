@@ -1,0 +1,7 @@
+﻿path,change,scientific_result_changed
+README.md,"final story, scope, platform naming, version and real DOI",False
+results/deployment/*,five-platform raw/summary/public primary table plus Linux sensitivity,False
+results/diagnostic/h800_r6/*,segregated failed diagnostic,False
+provenance/*,public-safe provenance and corrected-version strategy,False
+reproducibility/*,partial reproducibility and deterministic checks,False
+CITATION.cff,repository and existing DOI populated; candidate v1.1,False

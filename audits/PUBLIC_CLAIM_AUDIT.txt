@@ -1,0 +1,4 @@
+README and result documentation now define logical software mapping, controlled logical fault injection, kernel-only timing, one-step replay, corrected Binary32-Z, partial reproducibility, and noncausal H800 sensitivity interpretation. Old selective-protection story is not promoted. Negative timing is not called acceleration.
+CLAIM_ERRORS_FOUND=7
+CLAIM_ERRORS_FIXED=7
+PUBLIC_CLAIM_AUDIT_PASS=True

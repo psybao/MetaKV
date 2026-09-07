@@ -1,13 +1,13 @@
 {
   "master": {
-    "path": "data/PAPER_MASTER_NUMBERS_P10C.csv",
+    "path": "results/core/paper_master_numbers_p10c.csv",
     "sha256": "96c9dd6e0d5c39a40a5553dbef050959c00053429f92d9455c0bd6eea8ea90bf"
   },
   "figure_data": {
-    "figure_data/FIG2_FAULT_GEOMETRY.csv": "b386e93f034c53cd71e773d4be867eef4b091fe17df73cda786f291aa7cfc379",
-    "figure_data/FIG3_MAPPING_EVIDENCE.csv": "caa14f7e26ff306ca41d0badb4243e176c219479fa403690be8f755178e20072",
-    "figure_data/FIG4_DEPLOYMENT.csv": "2735596e50978a12f523778b1b2fac69b547f4aade5048ace8c889cc7f19b62e",
-    "figure_data/FIG5_MODEL_SCALEUP.csv": "53279821e5211e1282a2a3090c949c2047de0d61af6bf6946fadc4cc1cbf8aa2",
-    "figure_data/FIG6_FULL_CACHE_SEMANTICS.csv": "76e751609702015eee7e49c9fbe1f31b2ae094a414635c5b9f555e8f076930a1"
+    "results/core/fig2_fault_geometry.csv": "b386e93f034c53cd71e773d4be867eef4b091fe17df73cda786f291aa7cfc379",
+    "results/core/fig3_mapping_evidence.csv": "caa14f7e26ff306ca41d0badb4243e176c219479fa403690be8f755178e20072",
+    "results/core/fig4_deployment.csv": "2735596e50978a12f523778b1b2fac69b547f4aade5048ace8c889cc7f19b62e",
+    "results/core/fig5_model_scaleup.csv": "53279821e5211e1282a2a3090c949c2047de0d61af6bf6946fadc4cc1cbf8aa2",
+    "results/core/fig6_full_cache_semantics.csv": "76e751609702015eee7e49c9fbe1f31b2ae094a414635c5b9f555e8f076930a1"
   }
 }

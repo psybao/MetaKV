@@ -1,0 +1,3 @@
+# Deployment results
+
+Primary results are grouped by execution platform. `representation_source_platform` records configuration provenance and is not execution hardware. All timings are paired-block kernel microbenchmarks, not end-to-end inference latency. Negative timing differences are not interpreted as acceleration. The Linux RTX 5080 H800-like experiment has a maximum absolute mapped-versus-FP32 median difference of 0.168554942360%; it is a same-GPU sensitivity test, not a strict OS-only A/B test. The H800-like stack did not reproduce the substantially larger original H800 overhead. This supports backend- and architecture-sensitive execution cost but does not prove architecture-only causation.

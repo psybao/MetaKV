@@ -1,0 +1,2 @@
+Compared with V3.3 main and supplement: title, HA-FBMS method, corrected Binary32-Z, model counts, platform list, Linux maximum absolute median 0.168554942360%, timing scope, one-step scope, HBM2 limitations, repository and DOI are consistent. Public package adds no scientific result.
+PUBLIC_MANUSCRIPT_CONSISTENCY_PASS=True

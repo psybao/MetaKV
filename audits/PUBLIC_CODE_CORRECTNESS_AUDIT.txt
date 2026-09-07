@@ -1,0 +1,4 @@
+Python files=15; syntax errors=0. Reference quick validation and public-result verification pass. Static scan found no absolute D:/E:/root/home execution dependency in code. Codec, mapping, fault-screen, and selected experiment scripts retained. Public reproduction is PARTIAL because external GPUs, model weights and third-party HBM2 data are required.
+CODE_ERRORS_FOUND=1
+CODE_ERRORS_FIXED=1
+PUBLIC_CODE_AUDIT_PASS=True

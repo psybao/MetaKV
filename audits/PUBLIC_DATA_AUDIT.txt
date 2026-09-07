@@ -1,0 +1,5 @@
+Primary deployment rows=20; expected=20. Each platform contributes four largest-workload representations. Public raw blocks and authoritative summaries are included for all five execution platforms. P6B2 target rows and summary are included. Third-party HBM2 raw corpus and model weights are intentionally excluded.
+DATA_ERRORS_FOUND=3
+DATA_ERRORS_FIXED=3
+PUBLIC_RESULT_TRACE_PASS=True
+PUBLIC_DATA_AUDIT_PASS=True

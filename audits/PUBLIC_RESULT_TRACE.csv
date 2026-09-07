@@ -1,0 +1,81 @@
+﻿public_file,public_row,metric,public_value,authoritative_source,authoritative_value,raw_verified,difference,status
+results/core/paper_master_numbers_p10c.csv,2,strict_word_fault_rows,1067712,::M5.5M1_FINAL_STATUS.txt::TOTAL_ROWS,1067712,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,3,flip_positions,71858832,::M5.5M1_FINAL_STATUS.txt::TOTAL_FLIP_POSITIONS,71858832,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,4,H_le_3_coverage_mean,0.7355736886,::authoritative M2 summary::H<=3 coverage mean,0.7355736886,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,5,true_codec_evaluations,713900,::M5.5N1_FINAL_STATUS.txt::TOTAL_TRUE_EVALUATIONS,713900,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,6,exposure_rate_lambda,0.06568547037,::frozen N2 summary::lambda,0.06568547037,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,7,absolute_total_hybrid_risk,0.04374840531,::frozen N2 summary::absolute_total_hybrid,0.04374840531,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,8,candidate_specs,324,::m55n3b0_summary.json::spec_count,324,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,9,unique_representations,44,::m55n3b0_summary.json::unique_count,44,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,10,deep_confirmed_representations,8,::M5.5N3B1C_FINAL_STATUS.txt::CONFIRMED,8,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,11,union_position_cv,0.8834596847,::M3D authoritative aggregate::union_cv,0.8834596847,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,12,top8_position_mass,0.4761350711,::M3D authoritative aggregate::top8_mass,0.4761350711,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,13,cross_chip_spearman_mean,0.9475562072,::M3D authoritative aggregate::spearman_mean,0.9475562072,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,14,HBM_to_DDR_transfer_ratio_mean,1.00644782,::M3F-R1 summary::hbm_to_ddr_ratio_mean,1.00644782,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,15,DDR_to_HBM_transfer_ratio_mean,2.90789646,::M3F-R1 summary::ddr_to_hbm_ratio_mean,2.90789646,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,16,selected_max_reference_ratio_mean,1.00167557,::M3G authoritative summary::selected_max_ref_ratio_mean,1.00167557,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,17,mapped_vs_FP32_median_percent,-1.0226274220137777,::p1e_summary.csv::mapped_vs_fp32_median_percent,-1.0226274220137777,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,18,mapped_vs_FP32_median_percent,-0.22402564515658918,::p1e_summary.csv::mapped_vs_fp32_median_percent,-0.22402564515658918,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,19,mapped_vs_FP32_median_percent,-0.17161444910840373,::p1e_summary.csv::mapped_vs_fp32_median_percent,-0.17161444910840373,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,20,mapped_vs_FP32_median_percent,-0.013033242662352507,::p1e_summary.csv::mapped_vs_fp32_median_percent,-0.013033242662352507,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,21,mapped_vs_FP32_median_percent,0.005121405409647117,::p1e_summary.csv::mapped_vs_fp32_median_percent,0.005121405409647117,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,22,mapped_vs_FP32_median_percent,-0.01925678060019642,::p1e_summary.csv::mapped_vs_fp32_median_percent,-0.01925678060019642,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,23,mapped_vs_FP32_median_percent,0.15923954594816436,::p1e_summary.csv::mapped_vs_fp32_median_percent,0.15923954594816436,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,24,mapped_vs_FP32_median_percent,0.04422566699051611,::p1e_summary.csv::mapped_vs_fp32_median_percent,0.04422566699051611,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,25,mapped_vs_FP32_median_percent,165.06720312877817,::p2c_summary.csv::mapped_vs_fp32_median_percent,165.06720312877817,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,26,mapped_vs_FP32_median_percent,162.5547516005853,::p2c_summary.csv::mapped_vs_fp32_median_percent,162.5547516005853,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,27,mapped_vs_FP32_median_percent,156.96300501277918,::p2c_summary.csv::mapped_vs_fp32_median_percent,156.96300501277918,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,28,mapped_vs_FP32_median_percent,154.97386259836165,::p2c_summary.csv::mapped_vs_fp32_median_percent,154.97386259836165,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,29,scale_count,276480,::FINAL_MODEL_SCALEUP_TABLE.csv::scale_count,276480,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,30,max_amplification,256.0000003305187,::FINAL_MODEL_SCALEUP_TABLE.csv::Binary32_max_A,256.0000003305187,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,31,top1_changes,0,::FINAL_MODEL_SCALEUP_TABLE.csv::Binary32_top1_changes,0,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,32,scale_count,317440,::FINAL_MODEL_SCALEUP_TABLE.csv::scale_count,317440,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,33,max_amplification,256.0000003305185,::FINAL_MODEL_SCALEUP_TABLE.csv::Binary32_max_A,256.0000003305185,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,34,top1_changes,2,::FINAL_MODEL_SCALEUP_TABLE.csv::Binary32_top1_changes,2,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,35,scale_count,507904,::FINAL_MODEL_SCALEUP_TABLE.csv::scale_count,507904,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,36,max_amplification,512.0000007436676,::FINAL_MODEL_SCALEUP_TABLE.csv::Binary32_max_A,512.0000007436676,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,37,top1_changes,0,::FINAL_MODEL_SCALEUP_TABLE.csv::Binary32_top1_changes,0,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,38,max_amplification,1.8660659830736155,::FINAL_MODEL_SCALEUP_TABLE.csv::HA_max_A,1.8660659830736155,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,39,fault_max_KL,0.0015947017818689346,::FINAL_MODEL_SCALEUP_TABLE.csv::fault_HA_max_KL,0.0015947017818689346,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,40,clean_top1_changes,0,::FINAL_MODEL_SCALEUP_TABLE.csv::clean_full_cache_top1_changes,0,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,41,global_target_count,96,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::GLOBAL.n,96,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,42,global_top1_changes,2,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::GLOBAL.top1_changes,2,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,43,global_mean_KL,0.20652067476465608,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::GLOBAL.mean_kl,0.20652067476465608,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,44,global_median_KL,0.0,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::GLOBAL.median_kl,0.0,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,45,global_p95_KL,0.00041855545714497566,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::GLOBAL.p95_kl,0.00041855545714497566,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,46,global_max_KL,11.833429336547852,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::GLOBAL.max_kl,11.833429336547852,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,47,global_max_amplification,256.0000003305185,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::GLOBAL.max_a,256.0000003305185,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,48,high_severity_target_count,32,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::HIGH.n,32,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,49,high_severity_median_KL,3.864366590278223e-06,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::HIGH.median_kl,3.864366590278223e-06,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,50,high_severity_p95_KL,3.601666056364769,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::HIGH.p95_kl,3.601666056364769,True,0,VALID
+results/core/paper_master_numbers_p10c.csv,51,high_severity_max_KL,11.833429336547852,::P6B2_CORRECTED_BINARY32Z_20260904_021527/freeze/p6b2_corrected_binary_summary.csv::HIGH.max_kl,11.833429336547852,True,0,VALID
+results/deployment/deployment_primary_results.csv,2,mapped_vs_fp32_median_percent,-1.0226274220137777,deployment_final_archive/windows_rtx5080_authoritative summary + raw blocks,-1.0226274220137777,True,0,VALID
+results/deployment/deployment_primary_results.csv,3,mapped_vs_fp32_median_percent,-0.22402564515658918,deployment_final_archive/windows_rtx5080_authoritative summary + raw blocks,-0.22402564515658918,True,0,VALID
+results/deployment/deployment_primary_results.csv,4,mapped_vs_fp32_median_percent,-0.17161444910840373,deployment_final_archive/windows_rtx5080_authoritative summary + raw blocks,-0.17161444910840373,True,0,VALID
+results/deployment/deployment_primary_results.csv,5,mapped_vs_fp32_median_percent,-0.013033242662352507,deployment_final_archive/windows_rtx5080_authoritative summary + raw blocks,-0.013033242662352507,True,0,VALID
+results/deployment/deployment_primary_results.csv,6,mapped_vs_fp32_median_percent,0.07246856419547143,deployment_final_archive/linux_rtx5080_h800_like summary + raw blocks,0.07246856419547143,True,0,VALID
+results/deployment/deployment_primary_results.csv,7,mapped_vs_fp32_median_percent,0.16855494236021062,deployment_final_archive/linux_rtx5080_h800_like summary + raw blocks,0.16855494236021062,True,0,VALID
+results/deployment/deployment_primary_results.csv,8,mapped_vs_fp32_median_percent,-0.08911400180269258,deployment_final_archive/linux_rtx5080_h800_like summary + raw blocks,-0.08911400180269258,True,0,VALID
+results/deployment/deployment_primary_results.csv,9,mapped_vs_fp32_median_percent,-0.013039226733901899,deployment_final_archive/linux_rtx5080_h800_like summary + raw blocks,-0.013039226733901899,True,0,VALID
+results/deployment/deployment_primary_results.csv,10,mapped_vs_fp32_median_percent,0.005121405409647117,deployment_final_archive/manifest comparison summary + raw blocks,0.005121405409647117,True,0,VALID
+results/deployment/deployment_primary_results.csv,11,mapped_vs_fp32_median_percent,-0.01925678060019642,deployment_final_archive/manifest comparison summary + raw blocks,-0.01925678060019642,True,0,VALID
+results/deployment/deployment_primary_results.csv,12,mapped_vs_fp32_median_percent,0.15923954594816436,deployment_final_archive/manifest comparison summary + raw blocks,0.15923954594816436,True,0,VALID
+results/deployment/deployment_primary_results.csv,13,mapped_vs_fp32_median_percent,0.04422566699051611,deployment_final_archive/manifest comparison summary + raw blocks,0.04422566699051611,True,0,VALID
+results/deployment/deployment_primary_results.csv,14,mapped_vs_fp32_median_percent,165.06720312877817,deployment_final_archive/amd_gfx942_authoritative summary + raw blocks,165.06720312877817,True,0,VALID
+results/deployment/deployment_primary_results.csv,15,mapped_vs_fp32_median_percent,162.5547516005853,deployment_final_archive/amd_gfx942_authoritative summary + raw blocks,162.5547516005853,True,0,VALID
+results/deployment/deployment_primary_results.csv,16,mapped_vs_fp32_median_percent,156.96300501277918,deployment_final_archive/amd_gfx942_authoritative summary + raw blocks,156.96300501277918,True,0,VALID
+results/deployment/deployment_primary_results.csv,17,mapped_vs_fp32_median_percent,154.97386259836165,deployment_final_archive/amd_gfx942_authoritative summary + raw blocks,154.97386259836165,True,0,VALID
+results/deployment/deployment_primary_results.csv,18,mapped_vs_fp32_median_percent,16.78304469531515,deployment_final_archive/manifest comparison summary + raw blocks,16.78304469531515,True,0,VALID
+results/deployment/deployment_primary_results.csv,19,mapped_vs_fp32_median_percent,12.550879314296704,deployment_final_archive/manifest comparison summary + raw blocks,12.550879314296704,True,0,VALID
+results/deployment/deployment_primary_results.csv,20,mapped_vs_fp32_median_percent,10.920462148155362,deployment_final_archive/manifest comparison summary + raw blocks,10.920462148155362,True,0,VALID
+results/deployment/deployment_primary_results.csv,21,mapped_vs_fp32_median_percent,1.6401630788414279,deployment_final_archive/manifest comparison summary + raw blocks,1.6401630788414279,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,2,LLAMA31_8B_median_kl,0.0,P6B2 authoritative summary + 96 raw target rows/model,0.0,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,2,LLAMA31_8B_p95_kl,0.001568093430250883,P6B2 authoritative summary + 96 raw target rows/model,0.001568093430250883,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,2,LLAMA31_8B_max_kl,0.020511623471975327,P6B2 authoritative summary + 96 raw target rows/model,0.020511623471975327,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,2,LLAMA31_8B_mean_kl,0.00038217361829614066,P6B2 authoritative summary + 96 raw target rows/model,0.00038217361829614066,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,2,LLAMA31_8B_top1_changes,0,P6B2 authoritative summary + 96 raw target rows/model,0,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,6,QWEN3_14B_median_kl,0.0,P6B2 authoritative summary + 96 raw target rows/model,0.0,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,6,QWEN3_14B_p95_kl,0.00041855545714497566,P6B2 authoritative summary + 96 raw target rows/model,0.00041855545714497566,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,6,QWEN3_14B_max_kl,11.833429336547852,P6B2 authoritative summary + 96 raw target rows/model,11.833429336547852,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,6,QWEN3_14B_mean_kl,0.20652067476465608,P6B2 authoritative summary + 96 raw target rows/model,0.20652067476465608,True,0,VALID
+results/full_cache/p6b2_corrected_binary_summary.csv,6,QWEN3_14B_top1_changes,2,P6B2 authoritative summary + 96 raw target rows/model,2,True,0,VALID

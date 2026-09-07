@@ -1,5 +1,0 @@
-Reference package: Python 3.10+; Level 0 uses the standard library only.
-RTX 5080: NVIDIA CUDA platform; exact environment retained in frozen provenance outside this compact package.
-RTX 4060 Ti: NVIDIA CUDA platform; returned package contained a frozen core requirements inventory.
-AMD gfx942: AMD Instinct MI308X, ROCm/Triton backend. Do not label this platform MI300X.
-H800: NVIDIA H800 PCIe; PyTorch 2.12.1+cu130; Triton 3.7.1; CUDA runtime 13.0.

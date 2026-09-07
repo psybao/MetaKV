@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "If you use MetaKV, please cite the associated manuscript and archived release."
+message: "If you use MetaKV, please cite the software artifact and associated manuscript."
 title: "MetaKV: Fault-Resilient Structured Metadata for Low-Precision LLM KV Caches"
 type: software
+version: "v1.1-submission-candidate"
+date-released: "2026-09-07"
 authors:
-  - family-names: Yi
-    given-names: Ziyang
+  - family-names: "Yi"
+    given-names: "Ziyang"
     orcid: "https://orcid.org/0009-0002-5534-0494"
-version: "v1.0-submission"
-date-released: "2026-09-05"
-repository-code: "TBD_AFTER_GITHUB_UPLOAD"
-doi: "TBD_AFTER_ZENODO"
+repository-code: "https://github.com/psybao/MetaKV"
+url: "https://github.com/psybao/MetaKV"
 license: MIT

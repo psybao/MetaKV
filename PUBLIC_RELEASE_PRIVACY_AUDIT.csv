@@ -1,6 +1,0 @@
-"finding","path","severity","action","resolved"
-"Public contact email","README.md; AUTHORS.md","allowed","Retained as publication contact","True"
-"Private street address","entire package","critical","Excluded Room/apartment/street details from all public artifacts","True"
-"Credentials and authentication material","entire package","critical","Excluded and scanned","True"
-"Windows username and session identifiers","entire package","high","Excluded and scanned","True"
-"Machine-specific executable paths","code; reproducibility; README","high","Replaced with relative paths, CLI arguments, or environment variables","True"

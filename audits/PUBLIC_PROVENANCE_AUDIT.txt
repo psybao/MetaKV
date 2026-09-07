@@ -1,0 +1,4 @@
+v1.0 tag and commit verified using GitHub refs. Zenodo record 22308465 metadata verified via public API. Absolute local authoritative paths removed from v2 public material. Platform execution/provenance split enforced. H800 R6 marked failed diagnostic; original passing H800 evidence retained. N3 exact identity is not claimed.
+PROVENANCE_ERRORS_FOUND=6
+PROVENANCE_ERRORS_FIXED=6
+PUBLIC_PROVENANCE_AUDIT_PASS=True
