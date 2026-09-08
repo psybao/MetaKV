@@ -17,8 +17,8 @@ def sha256(p):
         for chunk in iter(lambda:f.read(1<<20),b''): h.update(chunk)
     return h.hexdigest()
 
-codec=load('metakv_codec','code/metakv_codec.py')
-mapping=load('mapping','code/mapping.py')
+codec=load('metakv_codec','src/metakv_codec.py')
+mapping=load('mapping','src/mapping.py')
 codec_pass=binary_pass=ha_pass=mapping_pass=master_pass=figure_pass=False
 try:
     assert codec.fp32_decode(codec.fp32_encode(1.25)) == 1.25

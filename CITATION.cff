@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use MetaKV, please cite the software artifact and associated manuscript."
 title: "MetaKV: Fault-Resilient Structured Metadata for Low-Precision LLM KV Caches"
 type: software
-version: "v1.1-submission-candidate"
-date-released: "2026-09-07"
+version: "v1.2-submission-candidate"
+date-released: "2026-09-08"
 authors:
   - family-names: "Yi"
     given-names: "Ziyang"

@@ -1,0 +1,63 @@
+{
+  "representation": "REP_0025",
+  "groups": 4194304,
+  "values": 134217728,
+  "group_size": 32,
+  "paired_blocks": 15,
+  "launches_per_timed_block": 100,
+  "identity_median_ms": 1.024525032043457,
+  "noop_median_ms": 1.0245263290405275,
+  "real_mapped_median_ms": 1.3325716400146486,
+  "prepermuted_median_ms": 1.0237091445922852,
+  "noop_vs_identity_median_percent": -0.0003276560591181088,
+  "noop_vs_identity_ci95": [
+    -0.016178202942629394,
+    0.01280767372944247
+  ],
+  "real_vs_identity_median_percent": 30.074147243768202,
+  "real_vs_identity_ci95": [
+    30.05412915330583,
+    30.08812254459685
+  ],
+  "pre_vs_identity_median_percent": -0.0783962190487264,
+  "pre_vs_identity_ci95": [
+    -0.10415446397357142,
+    -0.06498997351280789
+  ],
+  "real_vs_prepermuted_median_percent": 30.181306028042453,
+  "real_vs_prepermuted_ci95": [
+    30.16580277820806,
+    30.21125559785527
+  ],
+  "prepermute_roundtrip_exact": true,
+  "correctness_all_pass": true,
+  "correctness": {
+    "REAL_MAPPED": {
+      "finite": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "pass": true
+    },
+    "MAPPED_NOOP": {
+      "finite": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "pass": true
+    },
+    "PREPERMUTED": {
+      "finite": true,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "pass": true
+    }
+  },
+  "real_mapping_prepare_sec": 0.186182368000118,
+  "prepermute_normalization_sec": 0.24871306100021684,
+  "limitations": [
+    "Kernel microbenchmark causal diagnostic only.",
+    "PREPERMUTED metadata normalization is outside the timed kernel.",
+    "Software-emulated fixed bit layout only.",
+    "No physical DRAM/HBM lane placement demonstrated.",
+    "Negative latency deltas do not imply acceleration."
+  ]
+}

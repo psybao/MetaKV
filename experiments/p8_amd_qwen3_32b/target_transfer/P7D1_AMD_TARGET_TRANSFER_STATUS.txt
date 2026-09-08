@@ -1,0 +1,11 @@
+P7D1_AMD_TARGET_TRANSFER_PASS=True
+TARGET_COUNT=24
+PROMPT_COUNT=8
+TARGET_RESELECTION=False
+FAULT_FORWARD=False
+FROZEN_LOCATION_TRANSFER=True
+AMD_EXACT_REPRODUCTION=False
+Frozen P7D0 logical target locations are transferred across backend;
+clean metadata values are reconstructed locally on AMD.
+DERIVED_FROM_PASSING_P8_FORMAL_CASES=True
+EXPERIMENT_RERUN=False

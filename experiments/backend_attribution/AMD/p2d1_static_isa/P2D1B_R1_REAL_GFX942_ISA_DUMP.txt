@@ -1,0 +1,216 @@
+==============================================================================================================
+P2C AMD ROCm PARITY V2 — NVIDIA P1E SOURCE-DERIVED
+==============================================================================================================
+[ENV] Python=3.12.13
+[ENV] PyTorch=2.11.0+gitd0c8b1f
+[ENV] Triton=3.6.0
+[ENV] CUDA=None
+[ENV] HIP=7.2.53211
+[ENV] accelerator available=True
+[ENV] GPU=
+[CONFIG] 1/4 REP=REP_0008 model=GPT-OSS-20B platform=H800_CUDA Bc=14 Bf=18 interval=[-5.0,-0.5]
+[CONFIG] 2/4 REP=REP_0025 model=MiniCPM3-4B platform=AMD_ROCm Bc=19 Bf=13 interval=[-5.75,-3.0]
+[CONFIG] 3/4 REP=REP_0026 model=MiniCPM3-4B platform=AMD_ROCm Bc=22 Bf=10 interval=[-5.75,-3.0]
+[CONFIG] 4/4 REP=REP_0027 model=MiniCPM3-4B platform=AMD_ROCm Bc=26 Bf=6 interval=[-5.75,-3.0]
+
+==============================================================================================================
+[P2C-V2] CONFIG 1/4 REP=REP_0008 Bc=14 Bf=18 interval=[-5.0,-0.5]
+[P2C-V2] workload=1/2 groups=1,048,576 values=33,554,432
+[P2C-V2] REP=REP_0008 G=1,048,576 block=01/15 FP=0.162664 ID=0.227201 MAP=0.329508 codec=+39.675% mapping=+45.029% total=+102.569%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=02/15 FP=0.162667 ID=0.227090 MAP=0.329712 codec=+39.605% mapping=+45.190% total=+102.691%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=03/15 FP=0.162846 ID=0.227230 MAP=0.329768 codec=+39.537% mapping=+45.125% total=+102.503%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=04/15 FP=0.162685 ID=0.227406 MAP=0.329763 codec=+39.782% mapping=+45.011% total=+102.700%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=05/15 FP=0.162967 ID=0.227278 MAP=0.329807 codec=+39.462% mapping=+45.112% total=+102.377%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=06/15 FP=0.162750 ID=0.227234 MAP=0.329915 codec=+39.622% mapping=+45.187% total=+102.713%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=07/15 FP=0.162842 ID=0.227254 MAP=0.330326 codec=+39.555% mapping=+45.355% total=+102.851%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=08/15 FP=0.162672 ID=0.227363 MAP=0.329887 codec=+39.768% mapping=+45.093% total=+102.793%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=09/15 FP=0.162609 ID=0.227137 MAP=0.329790 codec=+39.683% mapping=+45.194% total=+102.812%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=10/15 FP=0.162620 ID=0.227305 MAP=0.329730 codec=+39.777% mapping=+45.061% total=+102.761%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=11/15 FP=0.162690 ID=0.227165 MAP=0.329650 codec=+39.630% mapping=+45.115% total=+102.625%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=12/15 FP=0.162622 ID=0.227084 MAP=0.329535 codec=+39.639% mapping=+45.116% total=+102.638%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=13/15 FP=0.162670 ID=0.227147 MAP=0.329574 codec=+39.637% mapping=+45.093% total=+102.603%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=14/15 FP=0.162723 ID=0.227108 MAP=0.329709 codec=+39.568% mapping=+45.177% total=+102.620%
+[P2C-V2] REP=REP_0008 G=1,048,576 block=15/15 FP=0.162607 ID=0.227158 MAP=0.329603 codec=+39.697% mapping=+45.098% total=+102.698%
+
+[P2C-V2-SUMMARY] REP=REP_0008 Bc=14 Bf=18 groups=1,048,576
+[P2C-V2-SUMMARY] codec=+39.6368% CI=[+39.5676%,+39.6832%]
+[P2C-V2-SUMMARY] mapping=+45.1152% CI=[+45.0930%,+45.1768%]
+[P2C-V2-SUMMARY] total=+102.6914% CI=[+102.6198%,+102.7130%]
+[P2C-V2-SUMMARY] elapsed=7.7s
+[P2C-V2] workload=2/2 groups=4,194,304 values=134,217,728
+[P2C-V2] REP=REP_0008 G=4,194,304 block=01/15 FP=0.812395 ID=1.012756 MAP=1.414145 codec=+24.663% mapping=+39.633% total=+74.071%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=02/15 FP=0.812514 ID=1.012876 MAP=1.413846 codec=+24.659% mapping=+39.587% total=+74.009%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=03/15 FP=0.812788 ID=1.013026 MAP=1.414126 codec=+24.636% mapping=+39.594% total=+73.985%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=04/15 FP=0.812833 ID=1.013012 MAP=1.414209 codec=+24.627% mapping=+39.604% total=+73.985%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=05/15 FP=0.812826 ID=1.012995 MAP=1.413997 codec=+24.626% mapping=+39.586% total=+73.961%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=06/15 FP=0.812918 ID=1.013012 MAP=1.413881 codec=+24.614% mapping=+39.572% total=+73.927%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=07/15 FP=0.812726 ID=1.013302 MAP=1.413836 codec=+24.679% mapping=+39.528% total=+73.962%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=08/15 FP=0.812956 ID=1.013204 MAP=1.414057 codec=+24.632% mapping=+39.563% total=+73.940%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=09/15 FP=0.812930 ID=1.013025 MAP=1.413871 codec=+24.614% mapping=+39.569% total=+73.923%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=10/15 FP=0.812981 ID=1.013035 MAP=1.413976 codec=+24.607% mapping=+39.578% total=+73.925%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=11/15 FP=0.813150 ID=1.013207 MAP=1.413889 codec=+24.603% mapping=+39.546% total=+73.878%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=12/15 FP=0.813164 ID=1.014137 MAP=1.414089 codec=+24.715% mapping=+39.438% total=+73.900%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=13/15 FP=0.812960 ID=1.013279 MAP=1.414220 codec=+24.641% mapping=+39.569% total=+73.959%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=14/15 FP=0.813041 ID=1.013318 MAP=1.414077 codec=+24.633% mapping=+39.549% total=+73.924%
+[P2C-V2] REP=REP_0008 G=4,194,304 block=15/15 FP=0.813112 ID=1.013544 MAP=1.414201 codec=+24.650% mapping=+39.530% total=+73.924%
+
+[P2C-V2-SUMMARY] REP=REP_0008 Bc=14 Bf=18 groups=4,194,304
+[P2C-V2-SUMMARY] codec=+24.6331% CI=[+24.6263%,+24.6500%]
+[P2C-V2-SUMMARY] mapping=+39.5692% CI=[+39.5459%,+39.5857%]
+[P2C-V2-SUMMARY] total=+73.9403% CI=[+73.9244%,+73.9845%]
+[P2C-V2-SUMMARY] elapsed=12.9s
+
+==============================================================================================================
+[P2C-V2] CONFIG 2/4 REP=REP_0025 Bc=19 Bf=13 interval=[-5.75,-3.0]
+[P2C-V2] workload=1/2 groups=1,048,576 values=33,554,432
+[P2C-V2] REP=REP_0025 G=1,048,576 block=01/15 FP=0.162690 ID=0.227176 MAP=0.319840 codec=+39.637% mapping=+40.790% total=+96.595%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=02/15 FP=0.162829 ID=0.227164 MAP=0.319824 codec=+39.511% mapping=+40.790% total=+96.418%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=03/15 FP=0.162726 ID=0.227035 MAP=0.319838 codec=+39.520% mapping=+40.876% total=+96.551%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=04/15 FP=0.163133 ID=0.227095 MAP=0.319578 codec=+39.208% mapping=+40.725% total=+95.900%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=05/15 FP=0.162729 ID=0.227131 MAP=0.319903 codec=+39.576% mapping=+40.845% total=+96.587%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=06/15 FP=0.162697 ID=0.227190 MAP=0.319914 codec=+39.640% mapping=+40.813% total=+96.632%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=07/15 FP=0.162714 ID=0.227071 MAP=0.319618 codec=+39.552% mapping=+40.757% total=+96.430%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=08/15 FP=0.162654 ID=0.226990 MAP=0.319605 codec=+39.554% mapping=+40.802% total=+96.494%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=09/15 FP=0.162833 ID=0.227089 MAP=0.319558 codec=+39.462% mapping=+40.719% total=+96.250%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=10/15 FP=0.162657 ID=0.227036 MAP=0.319470 codec=+39.579% mapping=+40.714% total=+96.407%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=11/15 FP=0.162656 ID=0.227206 MAP=0.319457 codec=+39.684% mapping=+40.603% total=+96.400%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=12/15 FP=0.162663 ID=0.228128 MAP=0.319461 codec=+40.246% mapping=+40.036% total=+96.394%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=13/15 FP=0.162660 ID=0.226891 MAP=0.319310 codec=+39.488% mapping=+40.732% total=+96.305%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=14/15 FP=0.162716 ID=0.226964 MAP=0.319462 codec=+39.485% mapping=+40.754% total=+96.331%
+[P2C-V2] REP=REP_0025 G=1,048,576 block=15/15 FP=0.162619 ID=0.226918 MAP=0.319461 codec=+39.539% mapping=+40.782% total=+96.447%
+
+[P2C-V2-SUMMARY] REP=REP_0025 Bc=19 Bf=13 groups=1,048,576
+[P2C-V2-SUMMARY] codec=+39.5522% CI=[+39.5109%,+39.6374%]
+[P2C-V2-SUMMARY] mapping=+40.7570% CI=[+40.7245%,+40.7902%]
+[P2C-V2-SUMMARY] total=+96.4177% CI=[+96.3310%,+96.5507%]
+[P2C-V2-SUMMARY] elapsed=4.1s
+[P2C-V2] workload=2/2 groups=4,194,304 values=134,217,728
+[P2C-V2] REP=REP_0025 G=4,194,304 block=01/15 FP=0.832237 ID=1.023307 MAP=1.331997 codec=+22.959% mapping=+30.166% total=+60.050%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=02/15 FP=0.832003 ID=1.023310 MAP=1.332309 codec=+22.994% mapping=+30.196% total=+60.133%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=03/15 FP=0.832215 ID=1.023257 MAP=1.332228 codec=+22.956% mapping=+30.195% total=+60.082%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=04/15 FP=0.832281 ID=1.023614 MAP=1.332302 codec=+22.989% mapping=+30.157% total=+60.078%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=05/15 FP=0.832224 ID=1.023419 MAP=1.332561 codec=+22.974% mapping=+30.207% total=+60.121%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=06/15 FP=0.832053 ID=1.023384 MAP=1.331794 codec=+22.995% mapping=+30.136% total=+60.061%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=07/15 FP=0.832216 ID=1.023442 MAP=1.331664 codec=+22.978% mapping=+30.116% total=+60.014%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=08/15 FP=0.832174 ID=1.023483 MAP=1.332629 codec=+22.989% mapping=+30.205% total=+60.138%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=09/15 FP=0.832301 ID=1.023422 MAP=1.332615 codec=+22.963% mapping=+30.212% total=+60.112%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=10/15 FP=0.832333 ID=1.023495 MAP=1.332605 codec=+22.967% mapping=+30.201% total=+60.105%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=11/15 FP=0.832152 ID=1.023241 MAP=1.331970 codec=+22.963% mapping=+30.172% total=+60.063%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=12/15 FP=0.832094 ID=1.023355 MAP=1.332522 codec=+22.986% mapping=+30.211% total=+60.141%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=13/15 FP=0.832198 ID=1.023407 MAP=1.332261 codec=+22.976% mapping=+30.179% total=+60.089%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=14/15 FP=0.831971 ID=1.023131 MAP=1.331991 codec=+22.977% mapping=+30.188% total=+60.101%
+[P2C-V2] REP=REP_0025 G=4,194,304 block=15/15 FP=0.832044 ID=1.023130 MAP=1.331615 codec=+22.966% mapping=+30.151% total=+60.041%
+
+[P2C-V2-SUMMARY] REP=REP_0025 Bc=19 Bf=13 groups=4,194,304
+[P2C-V2-SUMMARY] codec=+22.9765% CI=[+22.9657%,+22.9855%]
+[P2C-V2-SUMMARY] mapping=+30.1876% CI=[+30.1568%,+30.2053%]
+[P2C-V2-SUMMARY] total=+60.0895% CI=[+60.0611%,+60.1124%]
+[P2C-V2-SUMMARY] elapsed=12.0s
+
+==============================================================================================================
+[P2C-V2] CONFIG 3/4 REP=REP_0026 Bc=22 Bf=10 interval=[-5.75,-3.0]
+[P2C-V2] workload=1/2 groups=1,048,576 values=33,554,432
+[P2C-V2] REP=REP_0026 G=1,048,576 block=01/15 FP=0.162743 ID=0.227249 MAP=0.305766 codec=+39.636% mapping=+34.551% total=+87.882%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=02/15 FP=0.162621 ID=0.227013 MAP=0.305625 codec=+39.596% mapping=+34.629% total=+87.936%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=03/15 FP=0.162823 ID=0.227507 MAP=0.305541 codec=+39.726% mapping=+34.300% total=+87.652%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=04/15 FP=0.162632 ID=0.227045 MAP=0.305743 codec=+39.607% mapping=+34.662% total=+87.997%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=05/15 FP=0.162642 ID=0.227043 MAP=0.305617 codec=+39.597% mapping=+34.607% total=+87.908%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=06/15 FP=0.162688 ID=0.227070 MAP=0.305597 codec=+39.574% mapping=+34.583% total=+87.842%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=07/15 FP=0.162663 ID=0.227143 MAP=0.305558 codec=+39.640% mapping=+34.523% total=+87.848%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=08/15 FP=0.162849 ID=0.227038 MAP=0.305694 codec=+39.416% mapping=+34.645% total=+87.716%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=09/15 FP=0.162753 ID=0.227130 MAP=0.305616 codec=+39.555% mapping=+34.556% total=+87.779%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=10/15 FP=0.162691 ID=0.227076 MAP=0.305867 codec=+39.575% mapping=+34.698% total=+88.005%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=11/15 FP=0.162687 ID=0.227143 MAP=0.305653 codec=+39.620% mapping=+34.564% total=+87.878%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=12/15 FP=0.162621 ID=0.227147 MAP=0.305620 codec=+39.679% mapping=+34.548% total=+87.934%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=13/15 FP=0.162710 ID=0.227101 MAP=0.305549 codec=+39.574% mapping=+34.543% total=+87.788%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=14/15 FP=0.162619 ID=0.226991 MAP=0.305563 codec=+39.585% mapping=+34.615% total=+87.902%
+[P2C-V2] REP=REP_0026 G=1,048,576 block=15/15 FP=0.162639 ID=0.226996 MAP=0.305427 codec=+39.571% mapping=+34.552% total=+87.795%
+
+[P2C-V2-SUMMARY] REP=REP_0026 Bc=22 Bf=10 groups=1,048,576
+[P2C-V2-SUMMARY] codec=+39.5962% CI=[+39.5744%,+39.6199%]
+[P2C-V2-SUMMARY] mapping=+34.5642% CI=[+34.5476%,+34.6287%]
+[P2C-V2-SUMMARY] total=+87.8784% CI=[+87.7878%,+87.9080%]
+[P2C-V2-SUMMARY] elapsed=4.1s
+[P2C-V2] workload=2/2 groups=4,194,304 values=134,217,728
+[P2C-V2] REP=REP_0026 G=4,194,304 block=01/15 FP=0.823859 ID=1.022799 MAP=1.338008 codec=+24.147% mapping=+30.818% total=+62.407%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=02/15 FP=0.824089 ID=1.022770 MAP=1.338082 codec=+24.109% mapping=+30.829% total=+62.371%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=03/15 FP=0.823774 ID=1.023013 MAP=1.338281 codec=+24.186% mapping=+30.818% total=+62.457%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=04/15 FP=0.824340 ID=1.022669 MAP=1.338208 codec=+24.059% mapping=+30.854% total=+62.337%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=05/15 FP=0.824162 ID=1.022713 MAP=1.337818 codec=+24.091% mapping=+30.811% total=+62.325%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=06/15 FP=0.823745 ID=1.022636 MAP=1.337854 codec=+24.145% mapping=+30.824% total=+62.411%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=07/15 FP=0.824046 ID=1.022598 MAP=1.337831 codec=+24.095% mapping=+30.827% total=+62.349%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=08/15 FP=0.823899 ID=1.022237 MAP=1.337233 codec=+24.073% mapping=+30.814% total=+62.305%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=09/15 FP=0.824391 ID=1.022633 MAP=1.337868 codec=+24.047% mapping=+30.826% total=+62.286%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=10/15 FP=0.824142 ID=1.022514 MAP=1.337431 codec=+24.070% mapping=+30.798% total=+62.282%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=11/15 FP=0.824564 ID=1.022681 MAP=1.337697 codec=+24.027% mapping=+30.803% total=+62.231%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=12/15 FP=0.824391 ID=1.022612 MAP=1.337446 codec=+24.045% mapping=+30.787% total=+62.235%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=13/15 FP=0.824416 ID=1.022557 MAP=1.337330 codec=+24.034% mapping=+30.783% total=+62.215%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=14/15 FP=0.824353 ID=1.022676 MAP=1.337573 codec=+24.058% mapping=+30.791% total=+62.257%
+[P2C-V2] REP=REP_0026 G=4,194,304 block=15/15 FP=0.824308 ID=1.022550 MAP=1.336790 codec=+24.050% mapping=+30.731% total=+62.171%
+
+[P2C-V2-SUMMARY] REP=REP_0026 Bc=22 Bf=10 groups=4,194,304
+[P2C-V2-SUMMARY] codec=+24.0702% CI=[+24.0470%,+24.0947%]
+[P2C-V2-SUMMARY] mapping=+30.8143% CI=[+30.7984%,+30.8240%]
+[P2C-V2-SUMMARY] total=+62.3055% CI=[+62.2345%,+62.3711%]
+[P2C-V2-SUMMARY] elapsed=12.0s
+
+==============================================================================================================
+[P2C-V2] CONFIG 4/4 REP=REP_0027 Bc=26 Bf=6 interval=[-5.75,-3.0]
+[P2C-V2] workload=1/2 groups=1,048,576 values=33,554,432
+[P2C-V2] REP=REP_0027 G=1,048,576 block=01/15 FP=0.162789 ID=0.219207 MAP=0.276914 codec=+34.657% mapping=+26.325% total=+70.106%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=02/15 FP=0.162688 ID=0.219280 MAP=0.277027 codec=+34.785% mapping=+26.335% total=+70.281%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=03/15 FP=0.162814 ID=0.219197 MAP=0.277022 codec=+34.630% mapping=+26.381% total=+70.147%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=04/15 FP=0.162732 ID=0.219287 MAP=0.277100 codec=+34.753% mapping=+26.364% total=+70.280%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=05/15 FP=0.162723 ID=0.219253 MAP=0.277073 codec=+34.740% mapping=+26.371% total=+70.273%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=06/15 FP=0.162697 ID=0.219295 MAP=0.277123 codec=+34.787% mapping=+26.370% total=+70.330%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=07/15 FP=0.162741 ID=0.219230 MAP=0.277017 codec=+34.711% mapping=+26.359% total=+70.220%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=08/15 FP=0.162746 ID=0.219248 MAP=0.277035 codec=+34.718% mapping=+26.357% total=+70.226%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=09/15 FP=0.162678 ID=0.219092 MAP=0.276989 codec=+34.678% mapping=+26.426% total=+70.268%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=10/15 FP=0.162681 ID=0.219152 MAP=0.276971 codec=+34.713% mapping=+26.383% total=+70.254%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=11/15 FP=0.162706 ID=0.219051 MAP=0.276888 codec=+34.630% mapping=+26.404% total=+70.177%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=12/15 FP=0.162692 ID=0.219135 MAP=0.276950 codec=+34.693% mapping=+26.383% total=+70.229%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=13/15 FP=0.162683 ID=0.219026 MAP=0.276912 codec=+34.633% mapping=+26.429% total=+70.216%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=14/15 FP=0.163116 ID=0.219146 MAP=0.276843 codec=+34.350% mapping=+26.328% total=+69.722%
+[P2C-V2] REP=REP_0027 G=1,048,576 block=15/15 FP=0.162656 ID=0.218981 MAP=0.276769 codec=+34.628% mapping=+26.390% total=+70.156%
+
+[P2C-V2-SUMMARY] REP=REP_0027 Bc=26 Bf=6 groups=1,048,576
+[P2C-V2-SUMMARY] codec=+34.6932% CI=[+34.6335%,+34.7399%]
+[P2C-V2-SUMMARY] mapping=+26.3714% CI=[+26.3593%,+26.3895%]
+[P2C-V2-SUMMARY] total=+70.2258% CI=[+70.1562%,+70.2728%]
+[P2C-V2-SUMMARY] elapsed=4.0s
+[P2C-V2] workload=2/2 groups=4,194,304 values=134,217,728
+[P2C-V2] REP=REP_0027 G=4,194,304 block=01/15 FP=0.832034 ID=1.005073 MAP=1.238626 codec=+20.797% mapping=+23.237% total=+48.867%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=02/15 FP=0.832199 ID=1.004963 MAP=1.238520 codec=+20.760% mapping=+23.240% total=+48.825%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=03/15 FP=0.832128 ID=1.004874 MAP=1.238147 codec=+20.760% mapping=+23.214% total=+48.793%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=04/15 FP=0.832089 ID=1.004837 MAP=1.238172 codec=+20.761% mapping=+23.221% total=+48.803%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=05/15 FP=0.832133 ID=1.005041 MAP=1.238366 codec=+20.779% mapping=+23.215% total=+48.818%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=06/15 FP=0.832070 ID=1.004690 MAP=1.238017 codec=+20.746% mapping=+23.224% total=+48.788%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=07/15 FP=0.832014 ID=1.004906 MAP=1.238064 codec=+20.780% mapping=+23.202% total=+48.803%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=08/15 FP=0.831872 ID=1.004797 MAP=1.237748 codec=+20.787% mapping=+23.184% total=+48.791%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=09/15 FP=0.832049 ID=1.004951 MAP=1.238021 codec=+20.780% mapping=+23.192% total=+48.792%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=10/15 FP=0.832504 ID=1.005221 MAP=1.238491 codec=+20.747% mapping=+23.206% total=+48.767%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=11/15 FP=0.832228 ID=1.005184 MAP=1.238081 codec=+20.782% mapping=+23.169% total=+48.767%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=12/15 FP=0.832418 ID=1.005071 MAP=1.238218 codec=+20.741% mapping=+23.197% total=+48.750%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=13/15 FP=0.832035 ID=1.005419 MAP=1.243346 codec=+20.838% mapping=+23.665% total=+49.434%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=14/15 FP=0.831978 ID=1.004977 MAP=1.238350 codec=+20.794% mapping=+23.222% total=+48.844%
+[P2C-V2] REP=REP_0027 G=4,194,304 block=15/15 FP=0.832580 ID=1.005487 MAP=1.238599 codec=+20.768% mapping=+23.184% total=+48.766%
+
+[P2C-V2-SUMMARY] REP=REP_0027 Bc=26 Bf=6 groups=4,194,304
+[P2C-V2-SUMMARY] codec=+20.7789% CI=[+20.7600%,+20.7874%]
+[P2C-V2-SUMMARY] mapping=+23.2142% CI=[+23.1922%,+23.2238%]
+[P2C-V2-SUMMARY] total=+48.7929% CI=[+48.7876%,+48.8250%]
+[P2C-V2-SUMMARY] elapsed=11.9s
+[P2D1B] diagnostic harness active
+[P2D1B] compiling kernel_fp32
+Traceback (most recent call last):
+  File "${WORKSPACE}/metakv_amd_attribution/p2d1_static_isa/p2d1b_real_kernel_dump/p2d1b_compile_once.py", line 1506, in <module>
+    kernel_fp32[grid](
+  File "/usr/local/lib/python3.12/dist-packages/triton/runtime/jit.py", line 370, in <lambda>
+    return lambda *args, **kwargs: self.run(grid=grid, warmup=False, *args, **kwargs)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/triton/runtime/jit.py", line 710, in run
+    bound_args, specialization, options = binder(*args, **kwargs)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dynamic_func() missing 2 required positional arguments: 'group_size' and 'BLOCK_'
+P2D1B_R1_COMPILE_EXITCODE=1
+P2D1B_R1_WALLCLOCK_SEC=70

@@ -1,0 +1,13 @@
+P2N2_H800_SASS_ANALYSIS
+
+GPU=NVIDIA_H800_PCIe
+ARCH=Hopper_SM90
+
+FILES:
+identity_sass.txt
+runtime_perm_sass.txt
+preperm_sass.txt
+
+Purpose:
+Compare instruction expansion caused by runtime bit permutation.
+

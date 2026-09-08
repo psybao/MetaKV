@@ -1,0 +1,10 @@
+﻿metric_id,series,x,y,unit,source,notes
+Q14-BZ-GLOBAL-MEDIAN-KL,Binary32-Z,global_median_KL,0.0,KL,PAPER_MASTER_NUMBERS_P10C.csv::Q14-BZ-GLOBAL-MEDIAN-KL::E-P6B2,Report with p95 and maximum
+Q14-BZ-GLOBAL-P95-KL,Binary32-Z,global_p95_KL,0.00041855545714497566,KL,PAPER_MASTER_NUMBERS_P10C.csv::Q14-BZ-GLOBAL-P95-KL::E-P6B2,Report with median and maximum
+Q14-BZ-GLOBAL-MAX-KL,Binary32-Z,global_max_KL,11.833429336547852,KL,PAPER_MASTER_NUMBERS_P10C.csv::Q14-BZ-GLOBAL-MAX-KL::E-P6B2,Maximum is not representative of the typical target
+Q14-BZ-HIGH-MEDIAN-KL,Binary32-Z,high_severity_median_KL,3.864366590278223e-06,KL,PAPER_MASTER_NUMBERS_P10C.csv::Q14-BZ-HIGH-MEDIAN-KL::E-P6B2,Report with p95 and maximum
+Q14-BZ-HIGH-P95-KL,Binary32-Z,high_severity_p95_KL,3.601666056364769,KL,PAPER_MASTER_NUMBERS_P10C.csv::Q14-BZ-HIGH-P95-KL::E-P6B2,Selected stratum only
+Q14-BZ-HIGH-MAX-KL,Binary32-Z,high_severity_max_KL,11.833429336547852,KL,PAPER_MASTER_NUMBERS_P10C.csv::Q14-BZ-HIGH-MAX-KL::E-P6B2,Maximum does not describe central tendency
+Q14-BZ-GLOBAL-TOP1,Binary32-Z,global_top1_changes,2,count,PAPER_MASTER_NUMBERS_P10C.csv::Q14-BZ-GLOBAL-TOP1::E-P6B2,Do not infer an event probability
+Q32-HA-KL,HA-FBMS,fault_max_KL,0.0015947017818689346,KL,PAPER_MASTER_NUMBERS_P10C.csv::Q32-HA-KL::E-P7,One-step replay; target selection independent of P7D1 results
+Q32-CLEAN-TOP1,HA-FBMS,clean_top1_changes,0,count,PAPER_MASTER_NUMBERS_P10C.csv::Q32-CLEAN-TOP1::E-P7,"One-step replay, not long-sequence generation"

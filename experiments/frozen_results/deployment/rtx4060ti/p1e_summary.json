@@ -1,0 +1,63 @@
+{
+  "stage": "P1E",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "selected_representations": [
+    {
+      "representation_id": "REP_0008",
+      "model": "GPT-OSS-20B",
+      "platform": "H800_CUDA",
+      "Bc": 14,
+      "Bf": 18,
+      "zmin": -5.0,
+      "zmax": -0.5
+    },
+    {
+      "representation_id": "REP_0025",
+      "model": "MiniCPM3-4B",
+      "platform": "AMD_ROCm",
+      "Bc": 19,
+      "Bf": 13,
+      "zmin": -5.75,
+      "zmax": -3.0
+    },
+    {
+      "representation_id": "REP_0026",
+      "model": "MiniCPM3-4B",
+      "platform": "AMD_ROCm",
+      "Bc": 22,
+      "Bf": 10,
+      "zmin": -5.75,
+      "zmax": -3.0
+    },
+    {
+      "representation_id": "REP_0027",
+      "model": "MiniCPM3-4B",
+      "platform": "AMD_ROCm",
+      "Bc": 26,
+      "Bf": 6,
+      "zmin": -5.75,
+      "zmax": -3.0
+    }
+  ],
+  "target_Bc": [
+    14,
+    19,
+    22,
+    26
+  ],
+  "workloads": [
+    1048576,
+    4194304
+  ],
+  "paired_blocks": 15,
+  "launches_per_timed_block": 100,
+  "largest_workload_max_abs_mapped_vs_fp32_median_percent": 0.15923954594816436,
+  "limitations": [
+    "RTX 5080 only.",
+    "Kernel microbenchmark only.",
+    "Synthetic packed INT4 payload.",
+    "Fixed software-emulated metadata mappings.",
+    "No physical DRAM/HBM lane placement claim.",
+    "No end-to-end LLM latency claim."
+  ]
+}

@@ -1,0 +1,21 @@
+P2D FINAL MANIFEST
+DATE=2026-09-08 18:05:28
+
+=== STATIC ISA ===
+${WORKSPACE}/metakv_amd_attribution/p2d1_static_isa/p2d1b_real_kernel_dump/output/P2D1C_DUMP_SHA256.txt
+${WORKSPACE}/metakv_amd_attribution/p2d1_static_isa/p2d1b_real_kernel_dump/output/P2D1C_STATIC_ISA_CENSUS.csv
+${WORKSPACE}/metakv_amd_attribution/p2d1_static_isa/p2d1b_real_kernel_dump/output/P2D1C_STATIC_ISA_SUMMARY.txt
+
+=== DYNAMIC COUNTERS ===
+${WORKSPACE}/metakv_amd_attribution/p2d2_dynamic_profile/output/P2D2C_DYNAMIC_COUNTER_ROWS.csv
+${WORKSPACE}/metakv_amd_attribution/p2d2_dynamic_profile/output/P2D2C_DYNAMIC_COUNTER_SUMMARY.txt
+${WORKSPACE}/metakv_amd_attribution/p2d2_dynamic_profile/output/P2D2D_TCC_COUNTER_ROWS.csv
+${WORKSPACE}/metakv_amd_attribution/p2d2_dynamic_profile/output/P2D2D_TCC_COUNTER_SUMMARY.txt
+
+=== CAUSAL A/B ===
+${WORKSPACE}/metakv_amd_attribution/p2d3_causal_ab/output/P2D3A_REP0025_CAUSAL_AB.txt
+${WORKSPACE}/metakv_amd_attribution/p2d3_causal_ab/results/P2D3A_RAW_BLOCKS.csv
+${WORKSPACE}/metakv_amd_attribution/p2d3_causal_ab/results/P2D3A_SUMMARY.json
+
+=== FINAL STATUS ===
+${WORKSPACE}/metakv_amd_attribution/final/P2D_FINAL_STATUS.txt

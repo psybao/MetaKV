@@ -1,0 +1,33 @@
+{
+  "protocol": "P8_FORMAL_SHORT_HORIZON_V1",
+  "model": "Qwen3-32B",
+  "prompt_count": 8,
+  "target_count": 24,
+  "encodings": [
+    "FP32",
+    "BINARY32_Z",
+    "HA_FBMS"
+  ],
+  "modes": [
+    "TEACHER_FORCED",
+    "FREE_RUNNING"
+  ],
+  "max_horizon": 32,
+  "checkpoint_horizons": [
+    1,
+    8,
+    16,
+    32
+  ],
+  "greedy_decoding": true,
+  "do_sample": false,
+  "target_reselection": false,
+  "frozen_location_transfer": true,
+  "amd_local_clean_metadata_reconstruction": true,
+  "fault_injection_once_at_initial_cache": true,
+  "post_divergence_free_running_kl_is_pure_fault_effect": false,
+  "teacher_forced_definition": "The fault branch receives the clean-branch greedy token at every subsequent step, preserving the clean token history.",
+  "free_running_definition": "The fault branch feeds back its own greedy token after every step.",
+  "horizon_derivation": "A single 32-step trajectory is executed; statistics at 1/8/16/32 are derived from the same trajectory.",
+  "p7d1_frozen_files_modified": false
+}

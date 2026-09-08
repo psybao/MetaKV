@@ -1,61 +1,34 @@
 # MetaKV
 
-## Paper
+MetaKV studies fault-resilient 32-bit scale metadata for low-precision LLM KV caches. HA-FBMS separates coarse magnitude from local refinement to limit tested single-bit fault amplification without adding metadata bits. Logical remapping and runtime behavior are evaluated separately and remain backend- and characterization-dependent.
 
-**MetaKV: Fault-Resilient Structured Metadata for Low-Precision LLM KV Caches**
+## Software dependencies
 
-Repository: https://github.com/psybao/MetaKV  
-Archived v1.0 artifact: https://doi.org/10.5281/zenodo.22308465
+Python 3.10 or later is recommended. CPU validation uses NumPy, pandas, SciPy, and PyYAML. GPU experiments additionally require a hardware-compatible PyTorch and Triton build. Install the portable analysis dependencies with `python -m pip install -r requirements.txt`.
 
-## Core idea
+## Hardware requirements
 
-MetaKV treats group-scale metadata as a fault-amplification control point. HA-FBMS is a structured 32-bit log-scale representation with a thermometer-coded coarse field and a binary fine field. It preserves metadata width while bounding the tested logical single-bit scale response for calibrated configurations.
+CPU-only codec, manifest, and result checks require no GPU. Packed-kernel and replay experiments require the platform named by each experiment: NVIDIA RTX 4060 Ti, RTX 5080, or H800 with CUDA, or AMD gfx942-class hardware with ROCm. Qwen replay requires separately obtained model weights; weights are not redistributed.
 
-Characterization-weighted mapping is a software logical metadata-bit layout. In historical implementation notation, `mapping[logical] = physical`, where `physical` means a software layout index only. It does not mean a physical HBM lane, DRAM placement, or controller-visible remapping.
+## Quick start
 
-## Repository structure
+```bash
+python reproducibility/quick_validate.py
+python reproducibility/verify_public_results.py
+python scripts/reproduce_figures.py --source experiments/frozen_results/figures --output reproduced/figures
+python scripts/reproduce_tables.py --source experiments/frozen_results/core/metakv_main_tables_v3.md --output reproduced/tables
+```
 
-- `code/`: reference codecs, logical mapping, weighting, fault screens, and selected experiment scripts
-- `configs/`: public reference configuration
-- `results/core/`: processed master numbers and figure/table sources
-- `results/deployment/`: authoritative raw blocks, summaries, statuses, and a normalized primary table
-- `results/full_cache/`: corrected Binary32-Z P6B2 summary and target rows
-- `results/diagnostic/`: failed or diagnostic evidence excluded from primary tables
-- `provenance/`: public-safe evidence identities and version notes
-- `reproducibility/`: CPU validation and layered reproduction instructions
+Platform-specific commands and required environment variables are listed in `experiments/RUN_COMMANDS.md`. Exact historical absolute paths in provenance records are replaced with portable placeholders in this release copy.
 
-## Reproduction levels
+## Paper-to-experiment correspondence
 
-### CPU-only checks
+- HA-FBMS geometry and single-bit amplification: `src/metakv_codec.py`, `src/fault_screen.py`, and `experiments/frozen_results/core/`.
+- Packed deployment: `src/experiments/p1e_multiconfig_generality.py` and frozen deployment results.
+- Full-cache and 32-step replay: `experiments/p8_amd_qwen3_32b/`.
+- AMD P2D1/P2D2/P2D3 attribution: `scripts/backend_attribution/AMD/` and `experiments/backend_attribution/AMD/`.
+- H800 P2N1/P2N2 attribution: `scripts/backend_attribution/H800/` and `experiments/backend_attribution/H800/`.
+- RTX 5080 scale validation: `scripts/backend_attribution/RTX5080/` and `experiments/backend_attribution/RTX5080/`.
+- DDR/HBM2 mapping analysis: `scripts/mapping_generalization/` and `experiments/mapping_generalization/`.
 
-Run `python reproducibility/quick_validate.py` and `python reproducibility/verify_public_results.py`.
-
-### GPU deployment microbenchmarks
-
-GPU timing scripts require matching PyTorch/Triton environments. Timings are kernel microbenchmarks, not end-to-end LLM latency.
-
-### Model-dependent experiments
-
-Model weights are not redistributed. P3, P4, and P7 use deployment-calibrated configurations in the same HA-FBMS codec family. They are not proven byte-identical historical N3 instances. `HISTORICAL_N0_N3_CODEC_IDENTITY_PROVEN=False`.
-
-### HBM-derived characterization analysis
-
-The HBM2 observations derive from *Read Disturbance in High Bandwidth Memory: A Detailed Experimental Study on HBM2 DRAM Chips*, DSN 2024. MetaKV did not rerun that hardware characterization and does not redistribute the third-party raw corpus.
-
-## Public data and limitations
-
-Fault injection is controlled software logical metadata-fault injection. It does not measure HBM BER, deployed hardware fault probability, or real-event frequency. Full-cache experiments are one-step next-token replay, not full quantized autoregressive generation. Binary32-Z is a corrected same-width conventional baseline: uniform uint32 coding of log2 scale over a calibrated interval. It is not an original N3 representation.
-
-`REPRODUCIBLE_WITH_PUBLIC_ARTIFACTS=PARTIAL` because GPU hardware, model weights, and third-party HBM2 data are external.
-
-## Platform naming
-
-Execution platforms are `rtx5080_windows`, `rtx5080_linux_h800_like`, `rtx4060ti`, `amd_gfx942`, and `h800`. Linux H800-like names the software-stack sensitivity; its execution GPU is NVIDIA GeForce RTX 5080. AMD execution hardware is reported conservatively as an AMD gfx942-class accelerator. H800 R6 is `DIAGNOSTIC_ONLY` and is excluded from primary results.
-
-## Artifact version
-
-This package is the proposed corrected public artifact v1.1-submission. It preserves v1.0-submission and changes packaging, naming, provenance, documentation, and public result coverage. `SCIENTIFIC_RESULT_CHANGE=False`.
-
-## Citation
-
-See `CITATION.cff`. The immutable v1.0 DOI is 10.5281/zenodo.22308465. A new Zenodo version is recommended for this corrected package after author approval.
+See `CLAIM_EVIDENCE_MATRIX.md` for file-level traceability. Logical mapping is software-level and does not claim physical DRAM/HBM lane control. MetaKV is complementary to ECC.

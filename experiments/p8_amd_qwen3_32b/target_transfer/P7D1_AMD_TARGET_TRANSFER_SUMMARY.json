@@ -1,0 +1,17 @@
+{
+  "AMD_EXACT_REPRODUCTION": false,
+  "COUNT_ZERR_LE_1E-2": 18,
+  "COUNT_ZERR_LE_1E-3": 18,
+  "COUNT_ZERR_LE_5E-2": 24,
+  "DERIVATION": "Read-only extraction of unique target-transfer fields from passing P8 formal case records; no experiment rerun.",
+  "FAULT_FORWARD": false,
+  "FROZEN_LOCATION_TRANSFER": true,
+  "MAX_ABS_Z_ERROR": 0.010971117821003129,
+  "MEAN_ABS_Z_ERROR": 0.0026216744641906022,
+  "MEDIAN_ABS_Z_ERROR": 0.0,
+  "P95_ABS_Z_ERROR": 0.010679937995900368,
+  "PROMPT_COUNT": 8,
+  "SOURCE_CASES_SHA256": "6d83ef555f44b54d320e3198ad647fa10f9f93a235c3e63c4b7ff4a70abeb9d1",
+  "TARGET_COUNT": 24,
+  "TARGET_RESELECTION": false
+}

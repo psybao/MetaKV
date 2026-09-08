@@ -1,0 +1,75 @@
+========================================================================================================================
+P2D3A REP_0025 CAUSAL A/B
+========================================================================================================================
+Python=3.12.13
+PyTorch=2.11.0+gitd0c8b1f
+Triton=3.6.0
+HIP=7.2.53211
+CUDA=None
+GPU_AVAILABLE=True
+GPU_NAME=
+REP_MAPPING=0,6,8,20,16,21,19,13,26,22,14,30,24,2,10,4,28,18,12,31,25,7,1,15,23,9,17,27,3,29,5,11
+GROUPS=4194304
+VALUES=134217728
+GROUP_SIZE=32
+PAIRED_BLOCKS=15
+LAUNCHES_PER_TIMED_BLOCK=100
+
+[P2D3A] generating packed INT4 payload and valid SBL32 metadata
+PREPERMUTE_ROUNDTRIP_EXACT=True
+REAL_MAPPING_PREPARE_SEC=0.186182
+PREPERMUTE_NORMALIZATION_SEC=0.248713
+
+========================================================================================================================
+CORRECTNESS GATE
+========================================================================================================================
+REAL_MAPPED_FINITE=True MAX_ABS=0 MEAN_ABS=0 PASS=True
+MAPPED_NOOP_FINITE=True MAX_ABS=0 MEAN_ABS=0 PASS=True
+PREPERMUTED_FINITE=True MAX_ABS=0 MEAN_ABS=0 PASS=True
+CORRECTNESS_ALL_PASS=True
+
+========================================================================================================================
+WARMUP
+========================================================================================================================
+WARMUP_ROUNDS=30
+
+========================================================================================================================
+PAIRED BLOCK TIMING
+========================================================================================================================
+[P2D3A] block=01/15 ID=1.024910 NOOP=1.024627 REAL=1.333041 PRE=1.023753 NOOP-ID=-0.028% REAL-ID=+30.064% PRE-ID=-0.113% REAL-PRE=+30.211%
+[P2D3A] block=02/15 ID=1.024525 NOOP=1.024801 REAL=1.333374 PRE=1.023976 NOOP-ID=+0.027% REAL-ID=+30.146% PRE-ID=-0.054% REAL-PRE=+30.215%
+[P2D3A] block=03/15 ID=1.024466 NOOP=1.024483 REAL=1.332983 PRE=1.023619 NOOP-ID=+0.002% REAL-ID=+30.115% PRE-ID=-0.083% REAL-PRE=+30.222%
+[P2D3A] block=04/15 ID=1.024778 NOOP=1.024561 REAL=1.332785 PRE=1.023711 NOOP-ID=-0.021% REAL-ID=+30.056% PRE-ID=-0.104% REAL-PRE=+30.192%
+[P2D3A] block=05/15 ID=1.024288 NOOP=1.024419 REAL=1.332438 PRE=1.023621 NOOP-ID=+0.013% REAL-ID=+30.084% PRE-ID=-0.065% REAL-PRE=+30.169%
+[P2D3A] block=06/15 ID=1.025525 NOOP=1.024393 REAL=1.332455 PRE=1.023538 NOOP-ID=-0.110% REAL-ID=+29.929% PRE-ID=-0.194% REAL-PRE=+30.181%
+[P2D3A] block=07/15 ID=1.024334 NOOP=1.024456 REAL=1.332485 PRE=1.023572 NOOP-ID=+0.012% REAL-ID=+30.083% PRE-ID=-0.074% REAL-PRE=+30.180%
+[P2D3A] block=08/15 ID=1.024754 NOOP=1.024588 REAL=1.332295 PRE=1.023537 NOOP-ID=-0.016% REAL-ID=+30.011% PRE-ID=-0.119% REAL-PRE=+30.166%
+[P2D3A] block=09/15 ID=1.024331 NOOP=1.024388 REAL=1.332864 PRE=1.023823 NOOP-ID=+0.006% REAL-ID=+30.120% PRE-ID=-0.050% REAL-PRE=+30.185%
+[P2D3A] block=10/15 ID=1.024614 NOOP=1.024557 REAL=1.332901 PRE=1.023613 NOOP-ID=-0.006% REAL-ID=+30.088% PRE-ID=-0.098% REAL-PRE=+30.215%
+[P2D3A] block=11/15 ID=1.024375 NOOP=1.024709 REAL=1.332143 PRE=1.023709 NOOP-ID=+0.033% REAL-ID=+30.045% PRE-ID=-0.065% REAL-PRE=+30.129%
+[P2D3A] block=12/15 ID=1.024821 NOOP=1.024662 REAL=1.332562 PRE=1.023819 NOOP-ID=-0.016% REAL-ID=+30.029% PRE-ID=-0.098% REAL-PRE=+30.156%
+[P2D3A] block=13/15 ID=1.024530 NOOP=1.024526 REAL=1.332443 PRE=1.023905 NOOP-ID=-0.000% REAL-ID=+30.054% PRE-ID=-0.061% REAL-PRE=+30.134%
+[P2D3A] block=14/15 ID=1.024471 NOOP=1.024340 REAL=1.332572 PRE=1.023668 NOOP-ID=-0.013% REAL-ID=+30.074% PRE-ID=-0.078% REAL-PRE=+30.176%
+[P2D3A] block=15/15 ID=1.024332 NOOP=1.024479 REAL=1.332775 PRE=1.023775 NOOP-ID=+0.014% REAL-ID=+30.112% PRE-ID=-0.054% REAL-PRE=+30.182%
+
+========================================================================================================================
+P2D3A CAUSAL SUMMARY
+========================================================================================================================
+IDENTITY_MEDIAN_MS=1.024525032
+NOOP_MEDIAN_MS=1.024526329
+REAL_MAPPED_MEDIAN_MS=1.332571640
+PREPERMUTED_MEDIAN_MS=1.023709145
+
+NOOP_VS_IDENTITY_PERCENT=-0.000328 CI=[-0.016178,+0.012808]
+REAL_VS_IDENTITY_PERCENT=+30.074147 CI=[+30.054129,+30.088123]
+PREPERMUTED_VS_IDENTITY_PERCENT=-0.078396 CI=[-0.104154,-0.064990]
+REAL_VS_PREPERMUTED_PERCENT=+30.181306 CI=[+30.165803,+30.211256]
+
+NOOP_NEAR_IDENTITY=True
+PREPERMUTED_NEAR_IDENTITY=True
+REAL_RUNTIME_MAPPING_PENALTY_LARGE=True
+CAUSAL_RUNTIME_PERMUTATION_SUPPORTED=True
+KERNEL_SHAPE_PENALTY_SUPPORTED=False
+CORRECTNESS_ALL_PASS=True
+PREPERMUTE_ROUNDTRIP_EXACT=True
+P2D3A_EXECUTION_COMPLETE=True

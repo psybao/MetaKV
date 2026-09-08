@@ -1,0 +1,47 @@
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/identity_sass.txt:        /*0090*/                   IMAD.SHL.U32 R0, R0, 0x4, RZ ;                /* 0x0000000400007824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/identity_sass.txt:        /*00a0*/                   LOP3.LUT R0, R0, 0x1fc, RZ, 0xc0, !PT ;       /* 0x000001fc00007812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/identity_sass.txt:        /*00b0*/                   IMAD R11, R11, 0x400, R0 ;                    /* 0x000004000b0b7824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/identity_sass.txt:        /*00e0*/                   IMAD.WIDE R2, R11, 0x4, R2 ;                  /* 0x000000040b027825 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/identity_sass.txt:        /*0130*/                   IMAD.WIDE R8, R11, 0x4, R8 ;                  /* 0x000000040b087825 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/preperm_sass.txt:        /*0090*/                   IMAD.SHL.U32 R0, R0, 0x4, RZ ;                /* 0x0000000400007824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/preperm_sass.txt:        /*00a0*/                   LOP3.LUT R0, R0, 0x1fc, RZ, 0xc0, !PT ;       /* 0x000001fc00007812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/preperm_sass.txt:        /*00b0*/                   IMAD R11, R11, 0x400, R0 ;                    /* 0x000004000b0b7824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/preperm_sass.txt:        /*00e0*/                   IMAD.WIDE R2, R11, 0x4, R2 ;                  /* 0x000000040b027825 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/preperm_sass.txt:        /*0130*/                   IMAD.WIDE R8, R11, 0x4, R8 ;                  /* 0x000000040b087825 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*00b0*/                   IMAD.SHL.U32 R0, R0, 0x4, RZ ;                   /* 0x0000000400007824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*00c0*/                   LOP3.LUT R0, R0, 0x1fc, RZ, 0xc0, !PT ;          /* 0x000001fc00007812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*00d0*/                   IMAD R15, R15, 0x400, R0 ;                       /* 0x000004000f0f7824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0100*/                   IMAD.WIDE R12, R15, 0x4, R12 ;                   /* 0x000000040f0c7825 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0140*/                   IMAD.WIDE R2, R15, 0x4, R2 ;                     /* 0x000000040f027825 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0150*/                   IMAD.SHL.U32 R0, R8, 0x2, RZ ;                   /* 0x0000000208007824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0160*/                   SHF.R.S32.HI R17, RZ, 0x1, R8 ;                  /* 0x00000001ff117819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0170*/                   IMAD.SHL.U32 R8, R9, 0x2, RZ ;                   /* 0x0000000209087824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0180*/                   SHF.R.S32.HI R18, RZ, 0x1, R9 ;                  /* 0x00000001ff127819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0190*/                   IMAD.SHL.U32 R14, R10, 0x2, RZ ;                 /* 0x000000020a0e7824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*01a0*/                   LOP3.LUT R0, R0, 0xaaaaaaaa, RZ, 0xc0, !PT ;     /* 0xaaaaaaaa00007812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*01b0*/                   IMAD.SHL.U32 R16, R11, 0x2, RZ ;                 /* 0x000000020b107824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*01c0*/                   SHF.R.S32.HI R19, RZ, 0x1, R10 ;                 /* 0x00000001ff137819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*01d0*/                   IMAD.SHL.U32 R12, R6, 0x2, RZ ;                  /* 0x00000002060c7824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*01e0*/                   SHF.R.S32.HI R20, RZ, 0x1, R11 ;                 /* 0x00000001ff147819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*01f0*/                   IMAD.SHL.U32 R13, R7, 0x2, RZ ;                  /* 0x00000002070d7824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0200*/                   LOP3.LUT R9, R8, 0xaaaaaaaa, RZ, 0xc0, !PT ;     /* 0xaaaaaaaa08097812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0210*/                   LOP3.LUT R10, R14, 0xaaaaaaaa, RZ, 0xc0, !PT ;   /* 0xaaaaaaaa0e0a7812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0220*/                   LOP3.LUT R11, R16, 0xaaaaaaaa, RZ, 0xc0, !PT ;   /* 0xaaaaaaaa100b7812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0230*/                   LOP3.LUT R8, R0, 0xd5555555, R17, 0xf8, !PT ;    /* 0xd555555500087812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0240*/                   IMAD.SHL.U32 R0, R4, 0x2, RZ ;                   /* 0x0000000204007824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0250*/                   SHF.R.S32.HI R15, RZ, 0x1, R4 ;                  /* 0x00000001ff0f7819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0260*/                   IMAD.SHL.U32 R4, R5, 0x2, RZ ;                   /* 0x0000000205047824 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0270*/                   LOP3.LUT R9, R9, 0xd5555555, R18, 0xf8, !PT ;    /* 0xd555555509097812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0280*/                   LOP3.LUT R10, R10, 0xd5555555, R19, 0xf8, !PT ;  /* 0xd55555550a0a7812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0290*/                   LOP3.LUT R11, R11, 0xd5555555, R20, 0xf8, !PT ;  /* 0xd55555550b0b7812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*02a0*/                   SHF.R.S32.HI R14, RZ, 0x1, R5 ;                  /* 0x00000001ff0e7819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*02b0*/                   SHF.R.S32.HI R17, RZ, 0x1, R6 ;                  /* 0x00000001ff117819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*02d0*/                   SHF.R.S32.HI R16, RZ, 0x1, R7 ;                  /* 0x00000001ff107819 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*02e0*/                   LOP3.LUT R0, R0, 0xaaaaaaaa, RZ, 0xc0, !PT ;     /* 0xaaaaaaaa00007812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*02f0*/                   LOP3.LUT R5, R4, 0xaaaaaaaa, RZ, 0xc0, !PT ;     /* 0xaaaaaaaa04057812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0300*/                   LOP3.LUT R6, R12, 0xaaaaaaaa, RZ, 0xc0, !PT ;    /* 0xaaaaaaaa0c067812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0310*/                   LOP3.LUT R7, R13, 0xaaaaaaaa, RZ, 0xc0, !PT ;    /* 0xaaaaaaaa0d077812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0320*/                   LOP3.LUT R4, R0, 0xd5555555, R15, 0xf8, !PT ;    /* 0xd555555500047812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0330*/                   LOP3.LUT R5, R5, 0xd5555555, R14, 0xf8, !PT ;    /* 0xd555555505057812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0340*/                   LOP3.LUT R6, R6, 0xd5555555, R17, 0xf8, !PT ;    /* 0xd555555506067812 */
+${WORKSPACE}/metakv_h800_attribution/p2n1a_sass/runtime_perm_sass.txt:        /*0350*/                   LOP3.LUT R7, R7, 0xd5555555, R16, 0xf8, !PT ;    /* 0xd555555507077812 */

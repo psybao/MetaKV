@@ -1,0 +1,8 @@
+﻿metric_id,series,x,y,unit,source,notes
+M2-H3,H_le_3_coverage_mean,DDR,0.7355736886,fraction,PAPER_MASTER_NUMBERS_P10C.csv::M2-H3::E-M2,Scenario-specific corpus
+M3D-CV,union_position_cv,HBM2,0.8834596847,coefficient,PAPER_MASTER_NUMBERS_P10C.csv::M3D-CV::E-M3D,Not physical lane placement or BER
+M3D-TOP8,top8_position_mass,HBM2,0.4761350711,fraction,PAPER_MASTER_NUMBERS_P10C.csv::M3D-TOP8::E-M3D,Union data cannot infer simultaneous multibit probability
+M3D-RHO,cross_chip_spearman_mean,HBM2,0.9475562072,rho,PAPER_MASTER_NUMBERS_P10C.csv::M3D-RHO::E-M3D,Corpus characterization only
+M3F-H2D,HBM_to_DDR_transfer_ratio_mean,Mapping,1.00644782,domain-relative ratio,PAPER_MASTER_NUMBERS_P10C.csv::M3F-H2D::E-M3D,No absolute DDR/HBM objective comparison
+M3F-D2H,DDR_to_HBM_transfer_ratio_mean,Mapping,2.90789646,domain-relative ratio,PAPER_MASTER_NUMBERS_P10C.csv::M3F-D2H::E-M3D,Domain-relative ratios only
+M3G-MAX,selected_max_reference_ratio_mean,Mapping,1.00167557,domain-relative ratio,PAPER_MASTER_NUMBERS_P10C.csv::M3G-MAX::E-M3D,Local-search result; no global optimum

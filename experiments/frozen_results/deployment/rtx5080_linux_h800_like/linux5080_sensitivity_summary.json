@@ -1,0 +1,61 @@
+{
+  "experiment": "RTX5080 Linux H800-like software-stack sensitivity",
+  "execution_platform": "NVIDIA GeForce RTX 5080",
+  "execution_os": "Ubuntu 22.04.5 LTS",
+  "execution_kernel": "5.15.0-78-generic",
+  "driver": "580.82.07",
+  "cuda": "13.0",
+  "python": "3.12.3",
+  "torch": "2.12.1+cu130",
+  "triton": "3.7.1",
+  "omp_num_threads": 1,
+  "groups_largest": 4194304,
+  "values_largest": 134217728,
+  "largest_workload": [
+    {
+      "representation_id": "REP_0008",
+      "Bc": 14,
+      "Bf": 18,
+      "fp32_median_ms": 0.8401953506469726,
+      "identity_median_ms": 0.8407777404785156,
+      "mapped_median_ms": 0.8407577514648437,
+      "mapped_vs_fp32_median_percent": 0.07246856419547143,
+      "ci95_low": 0.020975323967986625,
+      "ci95_high": 0.128994556797557
+    },
+    {
+      "representation_id": "REP_0025",
+      "Bc": 19,
+      "Bf": 13,
+      "fp32_median_ms": 0.8401209640502929,
+      "identity_median_ms": 0.8404275131225586,
+      "mapped_median_ms": 0.8417363357543945,
+      "mapped_vs_fp32_median_percent": 0.16855494236021062,
+      "ci95_low": 0.1495843670764163,
+      "ci95_high": 0.23973676518860287
+    },
+    {
+      "representation_id": "REP_0026",
+      "Bc": 22,
+      "Bf": 10,
+      "fp32_median_ms": 0.8408599853515625,
+      "identity_median_ms": 0.8410343933105469,
+      "mapped_median_ms": 0.8400737762451171,
+      "mapped_vs_fp32_median_percent": -0.08911400180269258,
+      "ci95_low": -0.10503686698790649,
+      "ci95_high": -0.06679467883727863
+    },
+    {
+      "representation_id": "REP_0027",
+      "Bc": 26,
+      "Bf": 6,
+      "fp32_median_ms": 0.8403364562988281,
+      "identity_median_ms": 0.8405665588378906,
+      "mapped_median_ms": 0.8402573013305664,
+      "mapped_vs_fp32_median_percent": -0.013039226733901899,
+      "ci95_low": -0.01684932738638123,
+      "ci95_high": 0.01045080040553703
+    }
+  ],
+  "max_abs_mapped_vs_fp32_percent": 0.16855494236021062
+}

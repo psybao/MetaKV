@@ -1,0 +1,7 @@
+COMPILE identity
+PASS identity
+COMPILE runtime_perm
+PASS runtime_perm
+COMPILE preperm
+PASS preperm
+P2N1A_MICROBENCH_PASS=True
