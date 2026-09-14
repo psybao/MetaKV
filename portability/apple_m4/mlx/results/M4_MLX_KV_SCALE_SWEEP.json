@@ -1,0 +1,66 @@
+{
+  "platform": "Apple M4",
+  "backend": "MLX Metal GPU",
+  "seed": 20260902,
+  "sequence_lengths": [
+    128,
+    512,
+    1024,
+    2048
+  ],
+  "performance_claim": false,
+  "end_to_end_llm": false,
+  "physical_memory_mapping": false,
+  "software_metadata_bit_layout": true,
+  "all_cases_pass": true,
+  "results": [
+    {
+      "seq_len": 128,
+      "int4_values": 16384,
+      "packed_bytes": 8192,
+      "metadata_words": 4096,
+      "int4_bit_exact": true,
+      "metadata_cpu_mlx_equal": true,
+      "metadata_roundtrip_bit_exact": true,
+      "max_dequant_error": 0.0,
+      "attention_output_finite": true,
+      "pass": true
+    },
+    {
+      "seq_len": 512,
+      "int4_values": 65536,
+      "packed_bytes": 32768,
+      "metadata_words": 4096,
+      "int4_bit_exact": true,
+      "metadata_cpu_mlx_equal": true,
+      "metadata_roundtrip_bit_exact": true,
+      "max_dequant_error": 0.0,
+      "attention_output_finite": true,
+      "pass": true
+    },
+    {
+      "seq_len": 1024,
+      "int4_values": 131072,
+      "packed_bytes": 65536,
+      "metadata_words": 4096,
+      "int4_bit_exact": true,
+      "metadata_cpu_mlx_equal": true,
+      "metadata_roundtrip_bit_exact": true,
+      "max_dequant_error": 0.0,
+      "attention_output_finite": true,
+      "pass": true
+    },
+    {
+      "seq_len": 2048,
+      "int4_values": 262144,
+      "packed_bytes": 131072,
+      "metadata_words": 8192,
+      "int4_bit_exact": true,
+      "metadata_cpu_mlx_equal": true,
+      "metadata_roundtrip_bit_exact": true,
+      "max_dequant_error": 0.0,
+      "attention_output_finite": true,
+      "pass": true
+    }
+  ]
+}

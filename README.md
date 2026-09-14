@@ -32,3 +32,19 @@ Platform-specific commands and required environment variables are listed in `exp
 - DDR/HBM2 mapping analysis: `scripts/mapping_generalization/` and `experiments/mapping_generalization/`.
 
 See `CLAIM_EVIDENCE_MATRIX.md` for file-level traceability. Logical mapping is software-level and does not claim physical DRAM/HBM lane control. MetaKV is complementary to ECC.
+
+## Version v1.5.0 TJS final
+
+Changes since `v1.4.1-final`:
+
+- added Intel x86-64 CPU portability evidence;
+- added AMD CPU portability evidence;
+- added Apple M4 ARM64 CPU evidence;
+- added M4 MPS and MLX portability evidence where authoritative;
+- added cross-ISA provenance and numeric-integrity audits; and
+- aligned public evidence coverage with the TJS V2 manuscript.
+
+No previously frozen GPU, fault-injection, mapping, full-cache, HBM2, or Binary32-Z results were altered. The current parent release remains `v1.4.1-final` with Zenodo DOI `10.5281/zenodo.22666017`; that DOI is not the DOI of v1.5.0.
+
+See `portability/README.md` and `audit/` for the new evidence and audits.
+

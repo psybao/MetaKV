@@ -1,0 +1,4 @@
+platform,source_file,source_value,manuscript_value,supplement_value,match,status
+Intel Core i7-14700KF,${METAKV_SOURCE_ARCHIVE_ROOT}\Intel14700KF_LLVM_P3B_20260902_184657\formal\p3b_summary.csv,5.276852405917198,5.277%,5.277%,True,PASS
+AMD Ryzen 7 7840HS,${METAKV_SOURCE_ARCHIVE_ROOT}\AMD7840HS_P3B_FINAL_ANALYSIS\freeze_extracted\results\formal\p3b_summary.csv,6.303494066428295,6.303%,6.303%,True,PASS
+Apple M4 CPU,${METAKV_ROOT}\output\cpu_m4_recovery_audit\tmp\MetaKV_M4_COMPLETE_ARCHIVE_20260902_214934\M4_COMPLETE_ARCHIVE_20260902_214934\p3b_final\p3b_m4_summary.csv,6.712926515947659,6.713%,6.713%,True,PASS

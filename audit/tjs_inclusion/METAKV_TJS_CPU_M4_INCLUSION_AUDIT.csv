@@ -1,0 +1,6 @@
+platform,evidence_found,authoritative,in_main_text,main_location,in_main_table,table_location,in_supplement,supplement_location,numeric_match,claim_match,status
+Intel i7-14700KF,True,True,True,Section 6.3,False,,True,Supplement S10,True,True,PASS
+AMD Ryzen 7 7840HS,True,True,True,Section 6.3,False,,True,Supplement S10,True,True,PASS
+Apple M4 CPU,True,True,True,Section 6.3,False,,True,Supplement S10,True,True,PASS
+Apple M4 MPS,True,True,False,,False,,True,Supplement S10 functional observations,True,True,PASS_FUNCTIONAL_ONLY
+Apple M4 MLX,True,True,False,,False,,True,Supplement S10 functional observations,True,True,PASS_FUNCTIONAL_ONLY

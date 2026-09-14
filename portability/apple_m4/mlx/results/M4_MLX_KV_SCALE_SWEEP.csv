@@ -1,0 +1,5 @@
+seq_len,int4_values,packed_bytes,metadata_words,int4_bit_exact,metadata_cpu_mlx_equal,metadata_roundtrip_bit_exact,max_dequant_error,attention_output_finite,pass
+128,16384,8192,4096,True,True,True,0.0,True,True
+512,65536,32768,4096,True,True,True,0.0,True,True
+1024,131072,65536,4096,True,True,True,0.0,True,True
+2048,262144,131072,8192,True,True,True,0.0,True,True

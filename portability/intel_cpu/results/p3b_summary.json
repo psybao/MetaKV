@@ -1,0 +1,55 @@
+{
+  "stage": "P3B_INTEL_X86_MULTITHREAD",
+  "role": "multithread_throughput_validation",
+  "backend": "Intel_x86_64_CPU",
+  "cpu_model": "Intel Core i7-14700KF",
+  "openmp": true,
+  "thread_affinity": "OS_scheduler_managed",
+  "p_core_only_claim": false,
+  "thread_counts": [
+    1,
+    4,
+    8
+  ],
+  "groups": 4194304,
+  "mapping_semantics": "mapping[logical]=physical",
+  "mapping_source": "frozen_M3G_arbitrary_mapping",
+  "byte_lut_bytes": 4096,
+  "representation_count": 4,
+  "paired_blocks": 15,
+  "raw_row_count": 360,
+  "expected_raw_row_count": 360,
+  "summary_row_count": 12,
+  "correctness_all": true,
+  "primary_metric": "MAP_LUT8_vs_ID_FULL",
+  "within_5_percent_count": 10,
+  "within_8_percent_count": 12,
+  "max_abs_mapping_overhead_percent": 5.276852405917198,
+  "strong_pass_all_under_5_percent": false,
+  "practical_pass_all_under_8_percent": true,
+  "per_thread": {
+    "1": {
+      "count": 4,
+      "max_abs_mapping_overhead_percent": 4.876004241057985,
+      "all_under_5_percent": true,
+      "all_under_8_percent": true
+    },
+    "4": {
+      "count": 4,
+      "max_abs_mapping_overhead_percent": 5.0864159718488455,
+      "all_under_5_percent": false,
+      "all_under_8_percent": true
+    },
+    "8": {
+      "count": 4,
+      "max_abs_mapping_overhead_percent": 5.276852405917198,
+      "all_under_5_percent": false,
+      "all_under_8_percent": true
+    }
+  },
+  "kernel_microbenchmark": true,
+  "end_to_end_llm_latency_claim": false,
+  "physical_dram_lane_placement_demonstrated": false,
+  "negative_overhead_does_not_imply_acceleration": true,
+  "p3b_final_pass": true
+}

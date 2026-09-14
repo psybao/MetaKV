@@ -22,7 +22,7 @@ BOOTSTRAP_RESAMPLES = 10000
 IDENTITY = list(range(32))
 
 METHOD = Path(r"${METAKV_ROOT}\method_upgrade_m55")
-ARCHIVE = Path(r"E:\metakv\full_extract_20260903\metakv")
+ARCHIVE = Path(os.environ.get("METAKV_EVIDENCE_ROOT", "${METAKV_EVIDENCE_ROOT}"))
 AM55 = ARCHIVE / "method_upgrade_m55"
 OUT = METHOD / "output" / "p19_mapping_scrambling_sensitivity"
 PROTOCOL = OUT / "P19_PROTOCOL_FROZEN.json"
