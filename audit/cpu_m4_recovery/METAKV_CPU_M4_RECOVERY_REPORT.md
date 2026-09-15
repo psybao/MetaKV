@@ -16,7 +16,7 @@ The AMD Ryzen CPU evidence is distinct from the AMD gfx942 accelerator evidence.
 
 Apple M4 additionally has authoritative functional-only PyTorch MPS and MLX Metal checks. MPS and MLX are kept separate from the CPU timing result and are not characterized as performance benchmarks.
 
-## TJS reconciliation
+## Evidence reconciliation
 
 The P15 manuscript contained Intel-only CPU wording based on earlier evidence and omitted recovered AMD CPU and Apple M4 evidence. V2 therefore applies the allowed minimal revision: one restrained cross-ISA paragraph in Section 6.3 and one detailed Supplement S10 table. GPU, fault, codec, mapping, equation, reference, archive, and limitation content is otherwise unchanged.
 
@@ -25,4 +25,4 @@ AMD_CPU_AUTHORITATIVE=True
 M4_CPU_AUTHORITATIVE=True
 M4_MPS_AUTHORITATIVE=True_FUNCTIONAL_ONLY
 M4_MLX_AUTHORITATIVE=True_FUNCTIONAL_ONLY
-TJS_REVISION_REQUIRED=True
+EVIDENCE_RECONCILED=True

@@ -1,11 +1,5 @@
-PUBLIC_UPDATE_REQUIRED=True
-PUBLIC_CORRECTED_RELEASE_REQUIRED=True
-RECOMMENDED_TAG=v1.1-submission
-SCIENTIFIC_RESULT_CHANGE=False
-PROVENANCE_CHANGED=True
-CODE_CHANGED=True
-README_CHANGED=True
-PUBLIC_RESULT_COVERAGE_CHANGED=True
-ZENODO_UPDATE_REQUIRED=True
+# Release provenance
 
-Do not move or overwrite v1.0-submission. After author review, create a new GitHub release/tag and a new Zenodo version under concept DOI 10.5281/zenodo.22308464.
+Current candidate tag: v1.6.0-final. New version DOI: TBD.
+Historical parent: v1.5.0-tjs-final, DOI 10.5281/zenodo.22750136. Historical release identifier retained for provenance.
+Earlier release tags, records and measurements remain immutable. This copy changes research packaging and documentation only.

@@ -1,4 +1,4 @@
-# MetaKV
+# MetaKV: Fault-Resilient Structured Metadata for Low-Precision LLM KV Caches
 
 MetaKV studies fault-resilient 32-bit scale metadata for low-precision LLM KV caches. HA-FBMS separates coarse magnitude from local refinement to limit tested single-bit fault amplification without adding metadata bits. Logical remapping and runtime behavior are evaluated separately and remain backend- and characterization-dependent.
 
@@ -33,18 +33,10 @@ Platform-specific commands and required environment variables are listed in `exp
 
 See `CLAIM_EVIDENCE_MATRIX.md` for file-level traceability. Logical mapping is software-level and does not claim physical DRAM/HBM lane control. MetaKV is complementary to ECC.
 
-## Version v1.5.0 TJS final
+## Frozen research release v1.6.0-final
 
-Changes since `v1.4.1-final`:
+This candidate retains the scientific evidence of the historical parent artifact, including Intel and AMD x86-64 CPU, Apple M4 ARM64 CPU, MPS/MLX functional checks, and accelerator experiments. Scientific measurements and conclusions are unchanged. Current version DOI: TBD; no DOI has yet been assigned to v1.6.0-final.
 
-- added Intel x86-64 CPU portability evidence;
-- added AMD CPU portability evidence;
-- added Apple M4 ARM64 CPU evidence;
-- added M4 MPS and MLX portability evidence where authoritative;
-- added cross-ISA provenance and numeric-integrity audits; and
-- aligned public evidence coverage with the TJS V2 manuscript.
+Historical parent: `v1.5.0-tjs-final`, archived at https://doi.org/10.5281/zenodo.22750136. Historical release identifier retained for provenance.
 
-No previously frozen GPU, fault-injection, mapping, full-cache, HBM2, or Binary32-Z results were altered. The current parent release remains `v1.4.1-final` with Zenodo DOI `10.5281/zenodo.22666017`; that DOI is not the DOI of v1.5.0.
-
-See `portability/README.md` and `audit/` for the new evidence and audits.
-
+See `portability/README.md` and `audit/` for evidence and scientific audits.

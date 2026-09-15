@@ -1,6 +1,6 @@
 # CPU and Apple M4 portability evidence
 
-This directory contains the source-traceable portability evidence added for the TJS V2 manuscript.
+This directory contains the source-traceable portability evidence supporting heterogeneous deployment and cross-ISA portability.
 
 - `intel_cpu/`: Intel Core i7-14700KF x86-64 packed-INT4 timing evidence.
 - `amd_cpu/`: AMD Ryzen 7 7840HS x86-64 packed-INT4 timing evidence; this is separate from gfx942 GPU evidence.

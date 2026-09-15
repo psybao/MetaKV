@@ -1,47 +1,20 @@
 # Changelog
 
-## v1.5.0-tjs-final
-
-Added:
-- Intel CPU evidence
-- AMD CPU evidence
-- Apple M4 CPU evidence
-- MPS and MLX functional evidence
-- cross-ISA portability audits
+## v1.6.0-final
 
 Changed:
-- artifact coverage expanded to match the TJS V2 manuscript
+- removed journal-specific packaging and terminology
+- normalized manuscript and artifact filenames
+- retained all scientific evidence unchanged
+- preserved Intel, AMD, Apple M4, MPS/MLX and accelerator evidence
+- preserved public reproducibility coverage
 
-Unchanged:
-- HA-FBMS definition
-- Binary32-Z definition
-- GPU evidence
-- fault experiments
-- mapping evidence
-- HBM2 evidence
-- full-cache results
-- frozen historical releases
+Scientific results changed: NO
 
-## v1.4.1-final
+## v1.5.0-tjs-final
 
-Current parent reproducibility artifact; tag and Zenodo record remain unchanged.
+Historical release identifier retained for provenance. Added Intel CPU, AMD CPU, Apple M4 CPU, MPS/MLX functional evidence and cross-ISA portability audits. Scientific definitions and earlier frozen results were retained.
 
-## v1.4.0
+## Earlier history
 
-Historical public release retained by its original tag/archive.
-
-## v1.3
-
-Historical public release line retained by its original tags/archives.
-
-## v1.2
-
-Historical public release line retained by its original tags/archives.
-
-## v1.1
-
-Historical public release line retained by its original tags/archives. The local P16 `v1.1-tjs-submission` build is an intermediate only and must not be published.
-
-## v1.0
-
-Initial public release line retained by its original tag/archive.
+Versions v1.4.1-final, v1.4.0, v1.3, v1.2, v1.1 and v1.0 remain archived under their original immutable tags and records.

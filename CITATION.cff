@@ -2,8 +2,7 @@ cff-version: 1.2.0
 message: "If you use MetaKV, please cite the software artifact and associated manuscript."
 title: "MetaKV: Fault-Resilient Structured Metadata for Low-Precision LLM KV Caches"
 type: software
-version: "1.5.0-tjs-final"
-date-released: "2026-09-14"
+version: "1.6.0-final"
 authors:
   - family-names: "Yi"
     given-names: "Ziyang"
@@ -14,7 +13,7 @@ license: MIT
 identifiers:
   - type: other
     value: "TBD"
-    description: "Zenodo version DOI for v1.5.0-tjs-final; not yet assigned"
+    description: "New version DOI not yet assigned"
   - type: doi
-    value: "10.5281/zenodo.22666017"
-    description: "Parent public artifact v1.4.1-final"
+    value: "10.5281/zenodo.22750136"
+    description: "Historical parent artifact only; not the DOI of version 1.6.0-final"
